@@ -1,0 +1,2209 @@
+
+*** SETUP: MPI ****************************************************************
+
+Number of processors: 384
+Process 1 of 384 (rank 0): cpu-p-100
+Process 2 of 384 (rank 1): cpu-p-100
+Process 3 of 384 (rank 2): cpu-p-100
+Process 4 of 384 (rank 3): cpu-p-100
+Process 5 of 384 (rank 4): cpu-p-100
+Process 6 of 384 (rank 5): cpu-p-100
+Process 7 of 384 (rank 6): cpu-p-100
+Process 8 of 384 (rank 7): cpu-p-100
+Process 9 of 384 (rank 8): cpu-p-100
+Process 10 of 384 (rank 9): cpu-p-100
+Process 11 of 384 (rank 10): cpu-p-100
+Process 12 of 384 (rank 11): cpu-p-100
+Process 13 of 384 (rank 12): cpu-p-100
+Process 14 of 384 (rank 13): cpu-p-100
+Process 15 of 384 (rank 14): cpu-p-100
+Process 16 of 384 (rank 15): cpu-p-100
+Process 17 of 384 (rank 16): cpu-p-100
+Process 18 of 384 (rank 17): cpu-p-100
+Process 19 of 384 (rank 18): cpu-p-100
+Process 20 of 384 (rank 19): cpu-p-100
+Process 21 of 384 (rank 20): cpu-p-100
+Process 22 of 384 (rank 21): cpu-p-100
+Process 23 of 384 (rank 22): cpu-p-100
+Process 24 of 384 (rank 23): cpu-p-100
+Process 25 of 384 (rank 24): cpu-p-100
+Process 26 of 384 (rank 25): cpu-p-100
+Process 27 of 384 (rank 26): cpu-p-100
+Process 28 of 384 (rank 27): cpu-p-100
+Process 29 of 384 (rank 28): cpu-p-100
+Process 30 of 384 (rank 29): cpu-p-100
+Process 31 of 384 (rank 30): cpu-p-100
+Process 32 of 384 (rank 31): cpu-p-100
+Process 33 of 384 (rank 32): cpu-p-101
+Process 34 of 384 (rank 33): cpu-p-101
+Process 35 of 384 (rank 34): cpu-p-101
+Process 36 of 384 (rank 35): cpu-p-101
+Process 37 of 384 (rank 36): cpu-p-101
+Process 38 of 384 (rank 37): cpu-p-101
+Process 39 of 384 (rank 38): cpu-p-101
+Process 40 of 384 (rank 39): cpu-p-101
+Process 41 of 384 (rank 40): cpu-p-101
+Process 42 of 384 (rank 41): cpu-p-101
+Process 43 of 384 (rank 42): cpu-p-101
+Process 44 of 384 (rank 43): cpu-p-101
+Process 45 of 384 (rank 44): cpu-p-101
+Process 46 of 384 (rank 45): cpu-p-101
+Process 47 of 384 (rank 46): cpu-p-101
+Process 48 of 384 (rank 47): cpu-p-101
+Process 49 of 384 (rank 48): cpu-p-101
+Process 50 of 384 (rank 49): cpu-p-101
+Process 51 of 384 (rank 50): cpu-p-101
+Process 52 of 384 (rank 51): cpu-p-101
+Process 53 of 384 (rank 52): cpu-p-101
+Process 54 of 384 (rank 53): cpu-p-101
+Process 55 of 384 (rank 54): cpu-p-101
+Process 56 of 384 (rank 55): cpu-p-101
+Process 57 of 384 (rank 56): cpu-p-101
+Process 58 of 384 (rank 57): cpu-p-101
+Process 59 of 384 (rank 58): cpu-p-101
+Process 60 of 384 (rank 59): cpu-p-101
+Process 61 of 384 (rank 60): cpu-p-101
+Process 62 of 384 (rank 61): cpu-p-101
+Process 63 of 384 (rank 62): cpu-p-101
+Process 64 of 384 (rank 63): cpu-p-101
+Process 65 of 384 (rank 64): cpu-p-102
+Process 66 of 384 (rank 65): cpu-p-102
+Process 67 of 384 (rank 66): cpu-p-102
+Process 68 of 384 (rank 67): cpu-p-102
+Process 69 of 384 (rank 68): cpu-p-102
+Process 70 of 384 (rank 69): cpu-p-102
+Process 71 of 384 (rank 70): cpu-p-102
+Process 72 of 384 (rank 71): cpu-p-102
+Process 73 of 384 (rank 72): cpu-p-102
+Process 74 of 384 (rank 73): cpu-p-102
+Process 75 of 384 (rank 74): cpu-p-102
+Process 76 of 384 (rank 75): cpu-p-102
+Process 77 of 384 (rank 76): cpu-p-102
+Process 78 of 384 (rank 77): cpu-p-102
+Process 79 of 384 (rank 78): cpu-p-102
+Process 80 of 384 (rank 79): cpu-p-102
+Process 81 of 384 (rank 80): cpu-p-102
+Process 82 of 384 (rank 81): cpu-p-102
+Process 83 of 384 (rank 82): cpu-p-102
+Process 84 of 384 (rank 83): cpu-p-102
+Process 85 of 384 (rank 84): cpu-p-102
+Process 86 of 384 (rank 85): cpu-p-102
+Process 87 of 384 (rank 86): cpu-p-102
+Process 88 of 384 (rank 87): cpu-p-102
+Process 89 of 384 (rank 88): cpu-p-102
+Process 90 of 384 (rank 89): cpu-p-102
+Process 91 of 384 (rank 90): cpu-p-102
+Process 92 of 384 (rank 91): cpu-p-102
+Process 93 of 384 (rank 92): cpu-p-102
+Process 94 of 384 (rank 93): cpu-p-102
+Process 95 of 384 (rank 94): cpu-p-102
+Process 96 of 384 (rank 95): cpu-p-102
+Process 97 of 384 (rank 96): cpu-p-103
+Process 98 of 384 (rank 97): cpu-p-103
+Process 99 of 384 (rank 98): cpu-p-103
+Process 100 of 384 (rank 99): cpu-p-103
+Process 101 of 384 (rank 100): cpu-p-103
+Process 102 of 384 (rank 101): cpu-p-103
+Process 103 of 384 (rank 102): cpu-p-103
+Process 104 of 384 (rank 103): cpu-p-103
+Process 105 of 384 (rank 104): cpu-p-103
+Process 106 of 384 (rank 105): cpu-p-103
+Process 107 of 384 (rank 106): cpu-p-103
+Process 108 of 384 (rank 107): cpu-p-103
+Process 109 of 384 (rank 108): cpu-p-103
+Process 110 of 384 (rank 109): cpu-p-103
+Process 111 of 384 (rank 110): cpu-p-103
+Process 112 of 384 (rank 111): cpu-p-103
+Process 113 of 384 (rank 112): cpu-p-103
+Process 114 of 384 (rank 113): cpu-p-103
+Process 115 of 384 (rank 114): cpu-p-103
+Process 116 of 384 (rank 115): cpu-p-103
+Process 117 of 384 (rank 116): cpu-p-103
+Process 118 of 384 (rank 117): cpu-p-103
+Process 119 of 384 (rank 118): cpu-p-103
+Process 120 of 384 (rank 119): cpu-p-103
+Process 121 of 384 (rank 120): cpu-p-103
+Process 122 of 384 (rank 121): cpu-p-103
+Process 123 of 384 (rank 122): cpu-p-103
+Process 124 of 384 (rank 123): cpu-p-103
+Process 125 of 384 (rank 124): cpu-p-103
+Process 126 of 384 (rank 125): cpu-p-103
+Process 127 of 384 (rank 126): cpu-p-103
+Process 128 of 384 (rank 127): cpu-p-103
+Process 129 of 384 (rank 128): cpu-p-104
+Process 130 of 384 (rank 129): cpu-p-104
+Process 131 of 384 (rank 130): cpu-p-104
+Process 132 of 384 (rank 131): cpu-p-104
+Process 133 of 384 (rank 132): cpu-p-104
+Process 134 of 384 (rank 133): cpu-p-104
+Process 135 of 384 (rank 134): cpu-p-104
+Process 136 of 384 (rank 135): cpu-p-104
+Process 137 of 384 (rank 136): cpu-p-104
+Process 138 of 384 (rank 137): cpu-p-104
+Process 139 of 384 (rank 138): cpu-p-104
+Process 140 of 384 (rank 139): cpu-p-104
+Process 141 of 384 (rank 140): cpu-p-104
+Process 142 of 384 (rank 141): cpu-p-104
+Process 143 of 384 (rank 142): cpu-p-104
+Process 144 of 384 (rank 143): cpu-p-104
+Process 145 of 384 (rank 144): cpu-p-104
+Process 146 of 384 (rank 145): cpu-p-104
+Process 147 of 384 (rank 146): cpu-p-104
+Process 148 of 384 (rank 147): cpu-p-104
+Process 149 of 384 (rank 148): cpu-p-104
+Process 150 of 384 (rank 149): cpu-p-104
+Process 151 of 384 (rank 150): cpu-p-104
+Process 152 of 384 (rank 151): cpu-p-104
+Process 153 of 384 (rank 152): cpu-p-104
+Process 154 of 384 (rank 153): cpu-p-104
+Process 155 of 384 (rank 154): cpu-p-104
+Process 156 of 384 (rank 155): cpu-p-104
+Process 157 of 384 (rank 156): cpu-p-104
+Process 158 of 384 (rank 157): cpu-p-104
+Process 159 of 384 (rank 158): cpu-p-104
+Process 160 of 384 (rank 159): cpu-p-104
+Process 161 of 384 (rank 160): cpu-p-105
+Process 162 of 384 (rank 161): cpu-p-105
+Process 163 of 384 (rank 162): cpu-p-105
+Process 164 of 384 (rank 163): cpu-p-105
+Process 165 of 384 (rank 164): cpu-p-105
+Process 166 of 384 (rank 165): cpu-p-105
+Process 167 of 384 (rank 166): cpu-p-105
+Process 168 of 384 (rank 167): cpu-p-105
+Process 169 of 384 (rank 168): cpu-p-105
+Process 170 of 384 (rank 169): cpu-p-105
+Process 171 of 384 (rank 170): cpu-p-105
+Process 172 of 384 (rank 171): cpu-p-105
+Process 173 of 384 (rank 172): cpu-p-105
+Process 174 of 384 (rank 173): cpu-p-105
+Process 175 of 384 (rank 174): cpu-p-105
+Process 176 of 384 (rank 175): cpu-p-105
+Process 177 of 384 (rank 176): cpu-p-105
+Process 178 of 384 (rank 177): cpu-p-105
+Process 179 of 384 (rank 178): cpu-p-105
+Process 180 of 384 (rank 179): cpu-p-105
+Process 181 of 384 (rank 180): cpu-p-105
+Process 182 of 384 (rank 181): cpu-p-105
+Process 183 of 384 (rank 182): cpu-p-105
+Process 184 of 384 (rank 183): cpu-p-105
+Process 185 of 384 (rank 184): cpu-p-105
+Process 186 of 384 (rank 185): cpu-p-105
+Process 187 of 384 (rank 186): cpu-p-105
+Process 188 of 384 (rank 187): cpu-p-105
+Process 189 of 384 (rank 188): cpu-p-105
+Process 190 of 384 (rank 189): cpu-p-105
+Process 191 of 384 (rank 190): cpu-p-105
+Process 192 of 384 (rank 191): cpu-p-105
+Process 193 of 384 (rank 192): cpu-p-372
+Process 194 of 384 (rank 193): cpu-p-372
+Process 195 of 384 (rank 194): cpu-p-372
+Process 196 of 384 (rank 195): cpu-p-372
+Process 197 of 384 (rank 196): cpu-p-372
+Process 198 of 384 (rank 197): cpu-p-372
+Process 199 of 384 (rank 198): cpu-p-372
+Process 200 of 384 (rank 199): cpu-p-372
+Process 201 of 384 (rank 200): cpu-p-372
+Process 202 of 384 (rank 201): cpu-p-372
+Process 203 of 384 (rank 202): cpu-p-372
+Process 204 of 384 (rank 203): cpu-p-372
+Process 205 of 384 (rank 204): cpu-p-372
+Process 206 of 384 (rank 205): cpu-p-372
+Process 207 of 384 (rank 206): cpu-p-372
+Process 208 of 384 (rank 207): cpu-p-372
+Process 209 of 384 (rank 208): cpu-p-372
+Process 210 of 384 (rank 209): cpu-p-372
+Process 211 of 384 (rank 210): cpu-p-372
+Process 212 of 384 (rank 211): cpu-p-372
+Process 213 of 384 (rank 212): cpu-p-372
+Process 214 of 384 (rank 213): cpu-p-372
+Process 215 of 384 (rank 214): cpu-p-372
+Process 216 of 384 (rank 215): cpu-p-372
+Process 217 of 384 (rank 216): cpu-p-372
+Process 218 of 384 (rank 217): cpu-p-372
+Process 219 of 384 (rank 218): cpu-p-372
+Process 220 of 384 (rank 219): cpu-p-372
+Process 221 of 384 (rank 220): cpu-p-372
+Process 222 of 384 (rank 221): cpu-p-372
+Process 223 of 384 (rank 222): cpu-p-372
+Process 224 of 384 (rank 223): cpu-p-372
+Process 225 of 384 (rank 224): cpu-p-373
+Process 226 of 384 (rank 225): cpu-p-373
+Process 227 of 384 (rank 226): cpu-p-373
+Process 228 of 384 (rank 227): cpu-p-373
+Process 229 of 384 (rank 228): cpu-p-373
+Process 230 of 384 (rank 229): cpu-p-373
+Process 231 of 384 (rank 230): cpu-p-373
+Process 232 of 384 (rank 231): cpu-p-373
+Process 233 of 384 (rank 232): cpu-p-373
+Process 234 of 384 (rank 233): cpu-p-373
+Process 235 of 384 (rank 234): cpu-p-373
+Process 236 of 384 (rank 235): cpu-p-373
+Process 237 of 384 (rank 236): cpu-p-373
+Process 238 of 384 (rank 237): cpu-p-373
+Process 239 of 384 (rank 238): cpu-p-373
+Process 240 of 384 (rank 239): cpu-p-373
+Process 241 of 384 (rank 240): cpu-p-373
+Process 242 of 384 (rank 241): cpu-p-373
+Process 243 of 384 (rank 242): cpu-p-373
+Process 244 of 384 (rank 243): cpu-p-373
+Process 245 of 384 (rank 244): cpu-p-373
+Process 246 of 384 (rank 245): cpu-p-373
+Process 247 of 384 (rank 246): cpu-p-373
+Process 248 of 384 (rank 247): cpu-p-373
+Process 249 of 384 (rank 248): cpu-p-373
+Process 250 of 384 (rank 249): cpu-p-373
+Process 251 of 384 (rank 250): cpu-p-373
+Process 252 of 384 (rank 251): cpu-p-373
+Process 253 of 384 (rank 252): cpu-p-373
+Process 254 of 384 (rank 253): cpu-p-373
+Process 255 of 384 (rank 254): cpu-p-373
+Process 256 of 384 (rank 255): cpu-p-373
+Process 257 of 384 (rank 256): cpu-p-374
+Process 258 of 384 (rank 257): cpu-p-374
+Process 259 of 384 (rank 258): cpu-p-374
+Process 260 of 384 (rank 259): cpu-p-374
+Process 261 of 384 (rank 260): cpu-p-374
+Process 262 of 384 (rank 261): cpu-p-374
+Process 263 of 384 (rank 262): cpu-p-374
+Process 264 of 384 (rank 263): cpu-p-374
+Process 265 of 384 (rank 264): cpu-p-374
+Process 266 of 384 (rank 265): cpu-p-374
+Process 267 of 384 (rank 266): cpu-p-374
+Process 268 of 384 (rank 267): cpu-p-374
+Process 269 of 384 (rank 268): cpu-p-374
+Process 270 of 384 (rank 269): cpu-p-374
+Process 271 of 384 (rank 270): cpu-p-374
+Process 272 of 384 (rank 271): cpu-p-374
+Process 273 of 384 (rank 272): cpu-p-374
+Process 274 of 384 (rank 273): cpu-p-374
+Process 275 of 384 (rank 274): cpu-p-374
+Process 276 of 384 (rank 275): cpu-p-374
+Process 277 of 384 (rank 276): cpu-p-374
+Process 278 of 384 (rank 277): cpu-p-374
+Process 279 of 384 (rank 278): cpu-p-374
+Process 280 of 384 (rank 279): cpu-p-374
+Process 281 of 384 (rank 280): cpu-p-374
+Process 282 of 384 (rank 281): cpu-p-374
+Process 283 of 384 (rank 282): cpu-p-374
+Process 284 of 384 (rank 283): cpu-p-374
+Process 285 of 384 (rank 284): cpu-p-374
+Process 286 of 384 (rank 285): cpu-p-374
+Process 287 of 384 (rank 286): cpu-p-374
+Process 288 of 384 (rank 287): cpu-p-374
+Process 289 of 384 (rank 288): cpu-p-375
+Process 290 of 384 (rank 289): cpu-p-375
+Process 291 of 384 (rank 290): cpu-p-375
+Process 292 of 384 (rank 291): cpu-p-375
+Process 293 of 384 (rank 292): cpu-p-375
+Process 294 of 384 (rank 293): cpu-p-375
+Process 295 of 384 (rank 294): cpu-p-375
+Process 296 of 384 (rank 295): cpu-p-375
+Process 297 of 384 (rank 296): cpu-p-375
+Process 298 of 384 (rank 297): cpu-p-375
+Process 299 of 384 (rank 298): cpu-p-375
+Process 300 of 384 (rank 299): cpu-p-375
+Process 301 of 384 (rank 300): cpu-p-375
+Process 302 of 384 (rank 301): cpu-p-375
+Process 303 of 384 (rank 302): cpu-p-375
+Process 304 of 384 (rank 303): cpu-p-375
+Process 305 of 384 (rank 304): cpu-p-375
+Process 306 of 384 (rank 305): cpu-p-375
+Process 307 of 384 (rank 306): cpu-p-375
+Process 308 of 384 (rank 307): cpu-p-375
+Process 309 of 384 (rank 308): cpu-p-375
+Process 310 of 384 (rank 309): cpu-p-375
+Process 311 of 384 (rank 310): cpu-p-375
+Process 312 of 384 (rank 311): cpu-p-375
+Process 313 of 384 (rank 312): cpu-p-375
+Process 314 of 384 (rank 313): cpu-p-375
+Process 315 of 384 (rank 314): cpu-p-375
+Process 316 of 384 (rank 315): cpu-p-375
+Process 317 of 384 (rank 316): cpu-p-375
+Process 318 of 384 (rank 317): cpu-p-375
+Process 319 of 384 (rank 318): cpu-p-375
+Process 320 of 384 (rank 319): cpu-p-375
+Process 321 of 384 (rank 320): cpu-p-376
+Process 322 of 384 (rank 321): cpu-p-376
+Process 323 of 384 (rank 322): cpu-p-376
+Process 324 of 384 (rank 323): cpu-p-376
+Process 325 of 384 (rank 324): cpu-p-376
+Process 326 of 384 (rank 325): cpu-p-376
+Process 327 of 384 (rank 326): cpu-p-376
+Process 328 of 384 (rank 327): cpu-p-376
+Process 329 of 384 (rank 328): cpu-p-376
+Process 330 of 384 (rank 329): cpu-p-376
+Process 331 of 384 (rank 330): cpu-p-376
+Process 332 of 384 (rank 331): cpu-p-376
+Process 333 of 384 (rank 332): cpu-p-376
+Process 334 of 384 (rank 333): cpu-p-376
+Process 335 of 384 (rank 334): cpu-p-376
+Process 336 of 384 (rank 335): cpu-p-376
+Process 337 of 384 (rank 336): cpu-p-376
+Process 338 of 384 (rank 337): cpu-p-376
+Process 339 of 384 (rank 338): cpu-p-376
+Process 340 of 384 (rank 339): cpu-p-376
+Process 341 of 384 (rank 340): cpu-p-376
+Process 342 of 384 (rank 341): cpu-p-376
+Process 343 of 384 (rank 342): cpu-p-376
+Process 344 of 384 (rank 343): cpu-p-376
+Process 345 of 384 (rank 344): cpu-p-376
+Process 346 of 384 (rank 345): cpu-p-376
+Process 347 of 384 (rank 346): cpu-p-376
+Process 348 of 384 (rank 347): cpu-p-376
+Process 349 of 384 (rank 348): cpu-p-376
+Process 350 of 384 (rank 349): cpu-p-376
+Process 351 of 384 (rank 350): cpu-p-376
+Process 352 of 384 (rank 351): cpu-p-376
+Process 353 of 384 (rank 352): cpu-p-377
+Process 354 of 384 (rank 353): cpu-p-377
+Process 355 of 384 (rank 354): cpu-p-377
+Process 356 of 384 (rank 355): cpu-p-377
+Process 357 of 384 (rank 356): cpu-p-377
+Process 358 of 384 (rank 357): cpu-p-377
+Process 359 of 384 (rank 358): cpu-p-377
+Process 360 of 384 (rank 359): cpu-p-377
+Process 361 of 384 (rank 360): cpu-p-377
+Process 362 of 384 (rank 361): cpu-p-377
+Process 363 of 384 (rank 362): cpu-p-377
+Process 364 of 384 (rank 363): cpu-p-377
+Process 365 of 384 (rank 364): cpu-p-377
+Process 366 of 384 (rank 365): cpu-p-377
+Process 367 of 384 (rank 366): cpu-p-377
+Process 368 of 384 (rank 367): cpu-p-377
+Process 369 of 384 (rank 368): cpu-p-377
+Process 370 of 384 (rank 369): cpu-p-377
+Process 371 of 384 (rank 370): cpu-p-377
+Process 372 of 384 (rank 371): cpu-p-377
+Process 373 of 384 (rank 372): cpu-p-377
+Process 374 of 384 (rank 373): cpu-p-377
+Process 375 of 384 (rank 374): cpu-p-377
+Process 376 of 384 (rank 375): cpu-p-377
+Process 377 of 384 (rank 376): cpu-p-377
+Process 378 of 384 (rank 377): cpu-p-377
+Process 379 of 384 (rank 378): cpu-p-377
+Process 380 of 384 (rank 379): cpu-p-377
+Process 381 of 384 (rank 380): cpu-p-377
+Process 382 of 384 (rank 381): cpu-p-377
+Process 383 of 384 (rank 382): cpu-p-377
+Process 384 of 384 (rank 383): cpu-p-377
+*******************************************************************************
+
+*******************************************************************************
+
+   NNP LIBRARY v2.0.0
+   ------------------
+
+Git branch  : master
+Git revision: 7b73a36 (7b73a36a9acfdcc80e44265bac92b055f41a1d07)
+
+*******************************************************************************
+
+*** SETUP: SETTINGS FILE ******************************************************
+
+Settings file name: input.nn
+Read 840 lines.
+WARNING: Unknown keyword "normalize_data_set".
+WARNING: 1 problems detected.
+Found 288 lines with keywords.
+*******************************************************************************
+
+*** SETUP: NORMALIZATION ******************************************************
+
+Data set normalization is not used.
+*******************************************************************************
+
+*** SETUP: ELEMENT MAP ********************************************************
+
+Number of element strings found: 3
+Element  0:  H (  1)
+Element  1:  O (  8)
+Element  2: Ti ( 22)
+*******************************************************************************
+
+*** SETUP: ELEMENTS ***********************************************************
+
+Number of elements is consistent: 3
+Atomic energy offsets per element:
+Element  0:  -4.95068748E-01
+Element  1:  -1.57554914E+01
+Element  2:  -5.84853515E+01
+Energy offsets are automatically subtracted from reference energies.
+*******************************************************************************
+
+*** SETUP: CUTOFF FUNCTIONS ***************************************************
+
+Parameter alpha for inner cutoff: 0.000000
+Inner cutoff = Symmetry function cutoff * alpha
+Equal cutoff function type for all symmetry functions:
+CutoffFunction::CT_TANHU (2)
+f(r) = tanh^3(1 - r/rc)
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTIONS *************************************************
+
+Abbreviations:
+--------------
+ind .... Symmetry function index.
+ec ..... Central atom element.
+ty ..... Symmetry function type.
+e1 ..... Neighbor 1 element.
+e2 ..... Neighbor 2 element.
+eta .... Gaussian width eta.
+rs ..... Shift distance of Gaussian.
+la ..... Angle prefactor lambda.
+zeta ... Angle term exponent zeta.
+rc ..... Cutoff radius.
+ct ..... Cutoff type.
+ca ..... Cutoff alpha.
+ln ..... Line number in settings file.
+
+Short range atomic symmetry functions element  H :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln
+-------------------------------------------------------------------------------
+   1  H  2  O    6.900E-03 0.000E+00         1.200E+01  2 0.00   108
+   2  H  2 Ti    6.900E-03 0.000E+00         1.200E+01  2 0.00   130
+   3  H  2  H    1.100E-02 0.000E+00         1.200E+01  2 0.00    87
+   4  H  2  O    1.100E-02 0.000E+00         1.200E+01  2 0.00   109
+   5  H  2 Ti    1.100E-02 0.000E+00         1.200E+01  2 0.00   131
+   6  H  2  H    1.740E-02 0.000E+00         1.200E+01  2 0.00    88
+   7  H  2  O    1.740E-02 0.000E+00         1.200E+01  2 0.00   110
+   8  H  2 Ti    1.740E-02 0.000E+00         1.200E+01  2 0.00   132
+   9  H  2  H    2.760E-02 0.000E+00         1.200E+01  2 0.00    89
+  10  H  2  O    2.760E-02 0.000E+00         1.200E+01  2 0.00   111
+  11  H  2 Ti    2.760E-02 0.000E+00         1.200E+01  2 0.00   133
+  12  H  2 Ti    4.380E-02 0.000E+00         1.200E+01  2 0.00   134
+  13  H  2  H    6.940E-02 0.000E+00         1.200E+01  2 0.00    91
+  14  H  2  O    6.940E-02 0.000E+00         1.200E+01  2 0.00   113
+  15  H  2 Ti    6.940E-02 0.000E+00         1.200E+01  2 0.00   135
+  16  H  2  H    1.101E-01 0.000E+00         1.200E+01  2 0.00    92
+  17  H  2  O    1.101E-01 0.000E+00         1.200E+01  2 0.00   114
+  18  H  2 Ti    1.642E-01 9.532E+00         1.200E+01  2 0.00   150
+  19  H  2  O    1.744E-01 0.000E+00         1.200E+01  2 0.00   115
+  20  H  2 Ti    1.744E-01 0.000E+00         1.200E+01  2 0.00   137
+  21  H  2  H    2.765E-01 0.000E+00         1.200E+01  2 0.00    94
+  22  H  2 Ti    4.124E-01 6.014E+00         1.200E+01  2 0.00   148
+  23  H  2  H    4.382E-01 0.000E+00         1.200E+01  2 0.00    95
+  24  H  2  O    4.382E-01 0.000E+00         1.200E+01  2 0.00   117
+  25  H  2 Ti    6.536E-01 4.777E+00         1.200E+01  2 0.00   147
+  26  H  2  O    6.944E-01 0.000E+00         1.200E+01  2 0.00   118
+  27  H  2 Ti    6.944E-01 0.000E+00         1.200E+01  2 0.00   140
+  28  H  2 Ti    1.036E+00 3.795E+00         1.200E+01  2 0.00   146
+  29  H  2 Ti    1.642E+00 3.014E+00         1.200E+01  2 0.00   145
+  30  H  2 Ti    2.602E+00 2.394E+00         1.200E+01  2 0.00   144
+  31  H  2  H    6.536E+00 1.511E+00         1.200E+01  2 0.00    98
+  32  H  3  H  H 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   285
+  33  H  3  H  O 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   316
+  34  H  3 Ti Ti 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   440
+  35  H  3  H Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   346
+  36  H  3  O  O 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   377
+  37  H  3 Ti Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   439
+  38  H  3  H Ti 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   349
+  39  H  3  O  O 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   380
+  40  H  3  H  H 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   286
+  41  H  3  H  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   317
+  42  H  3  H Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   348
+  43  H  3  O Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   410
+  44  H  3 Ti Ti 1.000E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   444
+  45  H  3  H  O 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   319
+  46  H  3  O  O 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   381
+  47  H  3  O Ti 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   412
+  48  H  3  H  O 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   322
+  49  H  3  O  O 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   384
+  50  H  3  O Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   415
+  51  H  3  H  O 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   321
+  52  H  3  H Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   352
+  53  H  3  O  O 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   383
+  54  H  3 Ti Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   445
+  55  H  3  O  O 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   386
+  56  H  3  H  O 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   323
+  57  H  3  H Ti 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   354
+  58  H  3  O  O 5.600E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   388
+  59  H  3  H  O 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   325
+  60  H  3  O  O 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   387
+  61  H  3  O Ti 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   418
+  62  H  3  H  H 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   297
+  63  H  3  H  O 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   328
+  64  H  3  O Ti 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   421
+  65  H  3  H  O 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   327
+  66  H  3  H Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   358
+  67  H  3  O  O 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   389
+  68  H  3 Ti Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   451
+  69  H  3  H  O 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   329
+  70  H  3  O  O 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   391
+  71  H  3  O Ti 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   422
+  72  H  3  H  O 3.160E-02 0.000E+00  1 16.0 1.200E+01  2 0.00   331
+  73  H  3  H  O 1.778E-01 0.000E+00 -1  1.0 1.200E+01  2 0.00   334
+  74  H  3  H  H 1.778E-01 0.000E+00  1  1.0 1.200E+01  2 0.00   302
+  75  H  3  O  O 1.778E-01 0.000E+00  1  1.0 1.200E+01  2 0.00   395
+  76  H  3  O  O 1.778E-01 0.000E+00 -1  4.0 1.200E+01  2 0.00   398
+  77  H  3  H  H 1.778E-01 0.000E+00  1  4.0 1.200E+01  2 0.00   304
+  78  H  3  O  O 1.778E-01 0.000E+00  1  4.0 1.200E+01  2 0.00   397
+-------------------------------------------------------------------------------
+Short range atomic symmetry functions element  O :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln
+-------------------------------------------------------------------------------
+   1  O  2 Ti    6.900E-03 0.000E+00         1.200E+01  2 0.00   196
+   2  O  2  H    1.100E-02 0.000E+00         1.200E+01  2 0.00   153
+   3  O  2 Ti    1.100E-02 0.000E+00         1.200E+01  2 0.00   197
+   4  O  2 Ti    1.740E-02 0.000E+00         1.200E+01  2 0.00   198
+   5  O  2  O    2.760E-02 0.000E+00         1.200E+01  2 0.00   177
+   6  O  2  H    4.380E-02 0.000E+00         1.200E+01  2 0.00   156
+   7  O  2  O    4.380E-02 0.000E+00         1.200E+01  2 0.00   178
+   8  O  2 Ti    4.380E-02 0.000E+00         1.200E+01  2 0.00   200
+   9  O  2 Ti    6.940E-02 0.000E+00         1.200E+01  2 0.00   201
+  10  O  2  H    1.101E-01 0.000E+00         1.200E+01  2 0.00   158
+  11  O  2  O    1.101E-01 0.000E+00         1.200E+01  2 0.00   180
+  12  O  2 Ti    1.101E-01 0.000E+00         1.200E+01  2 0.00   202
+  13  O  2  H    1.744E-01 0.000E+00         1.200E+01  2 0.00   159
+  14  O  2  O    1.744E-01 0.000E+00         1.200E+01  2 0.00   181
+  15  O  2 Ti    1.744E-01 0.000E+00         1.200E+01  2 0.00   203
+  16  O  2 Ti    2.602E-01 7.571E+00         1.200E+01  2 0.00   215
+  17  O  2  H    2.765E-01 0.000E+00         1.200E+01  2 0.00   160
+  18  O  2 Ti    2.765E-01 0.000E+00         1.200E+01  2 0.00   204
+  19  O  2  O    4.124E-01 6.014E+00         1.200E+01  2 0.00   192
+  20  O  2  H    4.382E-01 0.000E+00         1.200E+01  2 0.00   161
+  21  O  2  O    4.382E-01 0.000E+00         1.200E+01  2 0.00   183
+  22  O  2 Ti    4.382E-01 0.000E+00         1.200E+01  2 0.00   205
+  23  O  2 Ti    6.536E-01 4.777E+00         1.200E+01  2 0.00   213
+  24  O  2  H    6.944E-01 0.000E+00         1.200E+01  2 0.00   162
+  25  O  2  O    6.944E-01 0.000E+00         1.200E+01  2 0.00   184
+  26  O  2 Ti    6.944E-01 0.000E+00         1.200E+01  2 0.00   206
+  27  O  2 Ti    1.642E+00 3.014E+00         1.200E+01  2 0.00   211
+  28  O  2  H    2.602E+00 2.394E+00         1.200E+01  2 0.00   166
+  29  O  2  O    2.602E+00 2.394E+00         1.200E+01  2 0.00   188
+  30  O  2  H    4.124E+00 1.902E+00         1.200E+01  2 0.00   165
+  31  O  3  H  O 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   502
+  32  O  3  O  O 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   564
+  33  O  3 Ti Ti 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   626
+  34  O  3  H  O 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   501
+  35  O  3  O Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   594
+  36  O  3 Ti Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   625
+  37  O  3  H Ti 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   535
+  38  O  3  O Ti 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   597
+  39  O  3 Ti Ti 1.000E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   628
+  40  O  3  H  H 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   472
+  41  O  3  H  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   503
+  42  O  3  O  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   565
+  43  O  3  O Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   596
+  44  O  3 Ti Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   627
+  45  O  3  O  O 1.000E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   568
+  46  O  3  H  O 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   505
+  47  O  3 Ti Ti 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   629
+  48  O  3  H  H 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   477
+  49  O  3  H  O 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   508
+  50  O  3  H Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   539
+  51  O  3 Ti Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   632
+  52  O  3  H  H 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   476
+  53  O  3  O  O 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   569
+  54  O  3  O Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   600
+  55  O  3  H  H 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   479
+  56  O  3  H Ti 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   541
+  57  O  3  O  O 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   572
+  58  O  3  H Ti 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   540
+  59  O  3  O  O 5.600E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   574
+  60  O  3  H  O 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   511
+  61  O  3  O Ti 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   604
+  62  O  3 Ti Ti 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   635
+  63  O  3  H  H 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   483
+  64  O  3  H Ti 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   545
+  65  O  3  O Ti 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   607
+  66  O  3 Ti Ti 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   638
+  67  O  3  H  O 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   513
+  68  O  3  H Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   544
+  69  O  3  O  O 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   575
+  70  O  3  O Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   606
+  71  O  3 Ti Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   637
+  72  O  3  H  H 3.160E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00   485
+  73  O  3  O Ti 3.160E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00   609
+  74  O  3  O  O 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   577
+  75  O  3  O Ti 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   608
+  76  O  3 Ti Ti 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   639
+  77  O  3  H  O 3.160E-02 0.000E+00  1 16.0 1.200E+01  2 0.00   517
+  78  O  3  O Ti 3.160E-02 0.000E+00  1 16.0 1.200E+01  2 0.00   610
+  79  O  3  H  H 1.778E-01 0.000E+00 -1  1.0 1.200E+01  2 0.00   489
+  80  O  3  H  O 1.778E-01 0.000E+00 -1  1.0 1.200E+01  2 0.00   520
+  81  O  3  H  O 1.778E-01 0.000E+00  1  1.0 1.200E+01  2 0.00   519
+  82  O  3  H  H 1.778E-01 0.000E+00 -1  4.0 1.200E+01  2 0.00   491
+  83  O  3  H  O 1.778E-01 0.000E+00 -1  4.0 1.200E+01  2 0.00   522
+-------------------------------------------------------------------------------
+Short range atomic symmetry functions element Ti :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln
+-------------------------------------------------------------------------------
+   1 Ti  2  O    6.900E-03 0.000E+00         1.200E+01  2 0.00   240
+   2 Ti  2 Ti    6.900E-03 0.000E+00         1.200E+01  2 0.00   262
+   3 Ti  2  H    1.100E-02 0.000E+00         1.200E+01  2 0.00   219
+   4 Ti  2  O    1.100E-02 0.000E+00         1.200E+01  2 0.00   241
+   5 Ti  2  O    1.740E-02 0.000E+00         1.200E+01  2 0.00   242
+   6 Ti  2 Ti    1.740E-02 0.000E+00         1.200E+01  2 0.00   264
+   7 Ti  2  H    2.760E-02 0.000E+00         1.200E+01  2 0.00   221
+   8 Ti  2  H    4.380E-02 0.000E+00         1.200E+01  2 0.00   222
+   9 Ti  2  O    6.940E-02 0.000E+00         1.200E+01  2 0.00   245
+  10 Ti  2 Ti    6.940E-02 0.000E+00         1.200E+01  2 0.00   267
+  11 Ti  2  O    1.101E-01 0.000E+00         1.200E+01  2 0.00   246
+  12 Ti  2 Ti    1.101E-01 0.000E+00         1.200E+01  2 0.00   268
+  13 Ti  2  H    1.744E-01 0.000E+00         1.200E+01  2 0.00   225
+  14 Ti  2 Ti    1.744E-01 0.000E+00         1.200E+01  2 0.00   269
+  15 Ti  2  H    2.602E-01 7.571E+00         1.200E+01  2 0.00   237
+  16 Ti  2  O    2.602E-01 7.571E+00         1.200E+01  2 0.00   259
+  17 Ti  2  H    2.765E-01 0.000E+00         1.200E+01  2 0.00   226
+  18 Ti  2  O    2.765E-01 0.000E+00         1.200E+01  2 0.00   248
+  19 Ti  2  H    4.124E-01 6.014E+00         1.200E+01  2 0.00   236
+  20 Ti  2  O    4.382E-01 0.000E+00         1.200E+01  2 0.00   249
+  21 Ti  2  H    6.536E-01 4.777E+00         1.200E+01  2 0.00   235
+  22 Ti  2 Ti    6.536E-01 4.777E+00         1.200E+01  2 0.00   279
+  23 Ti  2  H    6.944E-01 0.000E+00         1.200E+01  2 0.00   228
+  24 Ti  3  H  H 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   657
+  25 Ti  3  H  O 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   688
+  26 Ti  3  H Ti 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   719
+  27 Ti  3  O  O 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   750
+  28 Ti  3  O Ti 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   781
+  29 Ti  3 Ti Ti 1.000E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   812
+  30 Ti  3  H  H 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   656
+  31 Ti  3  H  O 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   687
+  32 Ti  3  H Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   718
+  33 Ti  3  O  O 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   749
+  34 Ti  3  O Ti 1.000E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   780
+  35 Ti  3  H  H 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   658
+  36 Ti  3  H  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   689
+  37 Ti  3  H Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   720
+  38 Ti  3  O  O 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   751
+  39 Ti  3  O Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   782
+  40 Ti  3 Ti Ti 1.000E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   813
+  41 Ti  3  O  O 1.000E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   754
+  42 Ti  3  O Ti 1.000E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   785
+  43 Ti  3  O Ti 1.000E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   784
+  44 Ti  3  H  O 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   694
+  45 Ti  3  H Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   725
+  46 Ti  3  O Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   787
+  47 Ti  3 Ti Ti 5.600E-03 0.000E+00 -1  1.0 1.200E+01  2 0.00   818
+  48 Ti  3  H  O 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   693
+  49 Ti  3  H Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   724
+  50 Ti  3  O Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   786
+  51 Ti  3 Ti Ti 5.600E-03 0.000E+00  1  1.0 1.200E+01  2 0.00   817
+  52 Ti  3  O  O 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   758
+  53 Ti  3  O Ti 5.600E-03 0.000E+00 -1  4.0 1.200E+01  2 0.00   789
+  54 Ti  3  H Ti 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   726
+  55 Ti  3  O  O 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   757
+  56 Ti  3  O Ti 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   788
+  57 Ti  3 Ti Ti 5.600E-03 0.000E+00  1  4.0 1.200E+01  2 0.00   819
+  58 Ti  3  H  H 5.600E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   667
+  59 Ti  3  O  O 5.600E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   760
+  60 Ti  3  O Ti 5.600E-03 0.000E+00 -1 16.0 1.200E+01  2 0.00   791
+  61 Ti  3  H  O 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   697
+  62 Ti  3  O Ti 5.600E-03 0.000E+00  1 16.0 1.200E+01  2 0.00   790
+  63 Ti  3  H  O 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   700
+  64 Ti  3  O  O 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   762
+  65 Ti  3  O Ti 3.160E-02 0.000E+00 -1  1.0 1.200E+01  2 0.00   793
+  66 Ti  3  H  H 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   668
+  67 Ti  3  O  O 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   761
+  68 Ti  3  O Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   792
+  69 Ti  3 Ti Ti 3.160E-02 0.000E+00  1  1.0 1.200E+01  2 0.00   823
+  70 Ti  3  H  O 3.160E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00   702
+  71 Ti  3  O  O 3.160E-02 0.000E+00 -1  4.0 1.200E+01  2 0.00   764
+  72 Ti  3  H  O 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   701
+  73 Ti  3  O  O 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   763
+  74 Ti  3  O Ti 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   794
+  75 Ti  3 Ti Ti 3.160E-02 0.000E+00  1  4.0 1.200E+01  2 0.00   825
+  76 Ti  3  H  O 3.160E-02 0.000E+00  1 16.0 1.200E+01  2 0.00   703
+  77 Ti  3  O  O 3.160E-02 0.000E+00  1 16.0 1.200E+01  2 0.00   765
+  78 Ti  3  H  O 1.778E-01 0.000E+00  1  1.0 1.200E+01  2 0.00   705
+-------------------------------------------------------------------------------
+Minimum cutoff radius for element  H: 12.000000
+Minimum cutoff radius for element  O: 12.000000
+Minimum cutoff radius for element Ti: 12.000000
+Maximum cutoff radius (global)      : 12.000000
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION GROUPS *******************************************
+
+Abbreviations:
+--------------
+ind .... Symmetry function group index.
+ec ..... Central atom element.
+ty ..... Symmetry function type.
+e1 ..... Neighbor 1 element.
+e2 ..... Neighbor 2 element.
+eta .... Gaussian width eta.
+rs ..... Shift distance of Gaussian.
+la ..... Angle prefactor lambda.
+zeta ... Angle term exponent zeta.
+rc ..... Cutoff radius.
+ct ..... Cutoff type.
+ca ..... Cutoff alpha.
+ln ..... Line number in settings file.
+mi ..... Member index.
+sfi .... Symmetry function index.
+e ...... Recalculate exponential term.
+
+Short range atomic symmetry function groups element  H :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln   mi  sfi e
+-------------------------------------------------------------------------------
+   1  H  2  H            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -    86    1    3  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -    87    2    6  
+   -  -  -  -    2.760E-02 0.000E+00                 -  -    -    88    3    9  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -    90    4   13  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -    91    5   16  
+   -  -  -  -    2.765E-01 0.000E+00                 -  -    -    93    6   21  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -    94    7   23  
+   -  -  -  -    6.536E+00 1.511E+00                 -  -    -    97    8   31  
+   2  H  2  O            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    6.900E-03 0.000E+00                 -  -    -   107    1    1  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   108    2    4  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -   109    3    7  
+   -  -  -  -    2.760E-02 0.000E+00                 -  -    -   110    4   10  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -   112    5   14  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   113    6   17  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   114    7   19  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -   116    8   24  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   117    9   26  
+   3  H  2 Ti            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    6.900E-03 0.000E+00                 -  -    -   129    1    2  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   130    2    5  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -   131    3    8  
+   -  -  -  -    2.760E-02 0.000E+00                 -  -    -   132    4   11  
+   -  -  -  -    4.380E-02 0.000E+00                 -  -    -   133    5   12  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -   134    6   15  
+   -  -  -  -    1.642E-01 9.532E+00                 -  -    -   149    7   18  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   136    8   20  
+   -  -  -  -    4.124E-01 6.014E+00                 -  -    -   147    9   22  
+   -  -  -  -    6.536E-01 4.777E+00                 -  -    -   146   10   25  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   139   11   27  
+   -  -  -  -    1.036E+00 3.795E+00                 -  -    -   145   12   28  
+   -  -  -  -    1.642E+00 3.014E+00                 -  -    -   144   13   29  
+   -  -  -  -    2.602E+00 2.394E+00                 -  -    -   143   14   30  
+   4  H  3  H  H         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   284    1   32 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   285    2   40 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   296    3   62 1
+   -  -  -  -  - 1.778E-01 0.000E+00  1  1.0         -  -    -   301    4   74 1
+   -  -  -  -  - 1.778E-01 0.000E+00  1  4.0         -  -    -   303    5   77 0
+   5  H  3  H  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   315    1   33 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   316    2   41 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   318    3   45 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   321    4   48 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   320    5   51 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   322    6   56 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   324    7   59 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   327    8   63 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   326    9   65 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   328   10   69 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1 16.0         -  -    -   330   11   72 0
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  1.0         -  -    -   333   12   73 1
+   6  H  3  H Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   345    1   35 1
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -   348    2   38 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   347    3   42 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   351    4   52 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   353    5   57 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   357    6   66 1
+   7  H  3  O  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   376    1   36 1
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -   379    2   39 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   380    3   46 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   383    4   49 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   382    5   53 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   385    6   55 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1 16.0         -  -    -   387    7   58 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   386    8   60 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   388    9   67 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   390   10   70 0
+   -  -  -  -  - 1.778E-01 0.000E+00  1  1.0         -  -    -   394   11   75 1
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  4.0         -  -    -   397   12   76 0
+   -  -  -  -  - 1.778E-01 0.000E+00  1  4.0         -  -    -   396   13   78 0
+   8  H  3  O Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   409    1   43 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   411    2   47 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   414    3   50 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   417    4   61 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   420    5   64 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   421    6   71 0
+   9  H  3 Ti Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   439    1   34 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   438    2   37 0
+   -  -  -  -  - 1.000E-03 0.000E+00 -1 16.0         -  -    -   443    3   44 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   444    4   54 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   450    5   68 1
+-------------------------------------------------------------------------------
+Short range atomic symmetry function groups element  O :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln   mi  sfi e
+-------------------------------------------------------------------------------
+   1  O  2  H            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   152    1    2  
+   -  -  -  -    4.380E-02 0.000E+00                 -  -    -   155    2    6  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   157    3   10  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   158    4   13  
+   -  -  -  -    2.765E-01 0.000E+00                 -  -    -   159    5   17  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -   160    6   20  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   161    7   24  
+   -  -  -  -    2.602E+00 2.394E+00                 -  -    -   165    8   28  
+   -  -  -  -    4.124E+00 1.902E+00                 -  -    -   164    9   30  
+   2  O  2  O            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    2.760E-02 0.000E+00                 -  -    -   176    1    5  
+   -  -  -  -    4.380E-02 0.000E+00                 -  -    -   177    2    7  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   179    3   11  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   180    4   14  
+   -  -  -  -    4.124E-01 6.014E+00                 -  -    -   191    5   19  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -   182    6   21  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   183    7   25  
+   -  -  -  -    2.602E+00 2.394E+00                 -  -    -   187    8   29  
+   3  O  2 Ti            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    6.900E-03 0.000E+00                 -  -    -   195    1    1  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   196    2    3  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -   197    3    4  
+   -  -  -  -    4.380E-02 0.000E+00                 -  -    -   199    4    8  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -   200    5    9  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   201    6   12  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   202    7   15  
+   -  -  -  -    2.602E-01 7.571E+00                 -  -    -   214    8   16  
+   -  -  -  -    2.765E-01 0.000E+00                 -  -    -   203    9   18  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -   204   10   22  
+   -  -  -  -    6.536E-01 4.777E+00                 -  -    -   212   11   23  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   205   12   26  
+   -  -  -  -    1.642E+00 3.014E+00                 -  -    -   210   13   27  
+   4  O  3  H  H         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   471    1   40 1
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   476    2   48 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   475    3   52 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   478    4   55 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   482    5   63 1
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  4.0         -  -    -   484    6   72 0
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  1.0         -  -    -   488    7   79 1
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  4.0         -  -    -   490    8   82 0
+   5  O  3  H  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   501    1   31 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   500    2   34 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   502    3   41 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   504    4   46 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   507    5   49 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   510    6   60 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   512    7   67 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1 16.0         -  -    -   516    8   77 0
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  1.0         -  -    -   519    9   80 1
+   -  -  -  -  - 1.778E-01 0.000E+00  1  1.0         -  -    -   518   10   81 0
+   -  -  -  -  - 1.778E-01 0.000E+00 -1  4.0         -  -    -   521   11   83 0
+   6  O  3  H Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -   534    1   37 1
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   538    2   50 1
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   540    3   56 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   539    4   58 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   544    5   64 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   543    6   68 0
+   7  O  3  O  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   563    1   32 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   564    2   42 0
+   -  -  -  -  - 1.000E-03 0.000E+00 -1 16.0         -  -    -   567    3   45 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   568    4   53 1
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   571    5   57 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1 16.0         -  -    -   573    6   59 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   574    7   69 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   576    8   74 0
+   8  O  3  O Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   593    1   35 1
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -   596    2   38 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   595    3   43 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   599    4   54 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   603    5   61 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   606    6   65 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   605    7   70 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  4.0         -  -    -   608    8   73 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   607    9   75 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1 16.0         -  -    -   609   10   78 0
+   9  O  3 Ti Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   625    1   33 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   624    2   36 0
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  4.0         -  -    -   627    3   39 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   626    4   44 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   628    5   47 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   631    6   51 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   634    7   62 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   637    8   66 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   636    9   71 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   638   10   76 0
+-------------------------------------------------------------------------------
+Short range atomic symmetry function groups element Ti :
+-------------------------------------------------------------------------------
+ ind ec ty e1 e2       eta        rs la zeta        rc ct   ca    ln   mi  sfi e
+-------------------------------------------------------------------------------
+   1 Ti  2  H            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   218    1    3  
+   -  -  -  -    2.760E-02 0.000E+00                 -  -    -   220    2    7  
+   -  -  -  -    4.380E-02 0.000E+00                 -  -    -   221    3    8  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   224    4   13  
+   -  -  -  -    2.602E-01 7.571E+00                 -  -    -   236    5   15  
+   -  -  -  -    2.765E-01 0.000E+00                 -  -    -   225    6   17  
+   -  -  -  -    4.124E-01 6.014E+00                 -  -    -   235    7   19  
+   -  -  -  -    6.536E-01 4.777E+00                 -  -    -   234    8   21  
+   -  -  -  -    6.944E-01 0.000E+00                 -  -    -   227    9   23  
+   2 Ti  2  O            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    6.900E-03 0.000E+00                 -  -    -   239    1    1  
+   -  -  -  -    1.100E-02 0.000E+00                 -  -    -   240    2    4  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -   241    3    5  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -   244    4    9  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   245    5   11  
+   -  -  -  -    2.602E-01 7.571E+00                 -  -    -   258    6   16  
+   -  -  -  -    2.765E-01 0.000E+00                 -  -    -   247    7   18  
+   -  -  -  -    4.382E-01 0.000E+00                 -  -    -   248    8   20  
+   3 Ti  2 Ti            *         *         1.200E+01  2 0.00     *    *    *  
+   -  -  -  -    6.900E-03 0.000E+00                 -  -    -   261    1    2  
+   -  -  -  -    1.740E-02 0.000E+00                 -  -    -   263    2    6  
+   -  -  -  -    6.940E-02 0.000E+00                 -  -    -   266    3   10  
+   -  -  -  -    1.101E-01 0.000E+00                 -  -    -   267    4   12  
+   -  -  -  -    1.744E-01 0.000E+00                 -  -    -   268    5   14  
+   -  -  -  -    6.536E-01 4.777E+00                 -  -    -   278    6   22  
+   4 Ti  3  H  H         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   656    1   24 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   655    2   30 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   657    3   35 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1 16.0         -  -    -   666    4   58 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   667    5   66 1
+   5 Ti  3  H  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   687    1   25 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   686    2   31 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   688    3   36 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   693    4   44 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   692    5   48 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   696    6   61 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   699    7   63 1
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  4.0         -  -    -   701    8   70 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   700    9   72 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1 16.0         -  -    -   702   10   76 0
+   -  -  -  -  - 1.778E-01 0.000E+00  1  1.0         -  -    -   704   11   78 1
+   6 Ti  3  H Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   718    1   26 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   717    2   32 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   719    3   37 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   724    4   45 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   723    5   49 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   725    6   54 0
+   7 Ti  3  O  O         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   749    1   27 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   748    2   33 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   750    3   38 0
+   -  -  -  -  - 1.000E-03 0.000E+00 -1 16.0         -  -    -   753    4   41 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   757    5   52 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   756    6   55 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1 16.0         -  -    -   759    7   59 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   761    8   64 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   760    9   67 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  4.0         -  -    -   763   10   71 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   762   11   73 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1 16.0         -  -    -   764   12   77 0
+   8 Ti  3  O Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   780    1   28 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  1.0         -  -    -   779    2   34 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   781    3   39 0
+   -  -  -  -  - 1.000E-03 0.000E+00 -1 16.0         -  -    -   784    4   42 0
+   -  -  -  -  - 1.000E-03 0.000E+00  1 16.0         -  -    -   783    5   43 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   786    6   46 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   785    7   50 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  4.0         -  -    -   788    8   53 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   787    9   56 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1 16.0         -  -    -   790   10   60 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1 16.0         -  -    -   789   11   62 0
+   -  -  -  -  - 3.160E-02 0.000E+00 -1  1.0         -  -    -   792   12   65 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   791   13   68 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   793   14   74 0
+   9 Ti  3 Ti Ti         *         *  *    * 1.200E+01  2 0.00     *    *    * *
+   -  -  -  -  - 1.000E-03 0.000E+00 -1  1.0         -  -    -   811    1   29 1
+   -  -  -  -  - 1.000E-03 0.000E+00  1  4.0         -  -    -   812    2   40 0
+   -  -  -  -  - 5.600E-03 0.000E+00 -1  1.0         -  -    -   817    3   47 1
+   -  -  -  -  - 5.600E-03 0.000E+00  1  1.0         -  -    -   816    4   51 0
+   -  -  -  -  - 5.600E-03 0.000E+00  1  4.0         -  -    -   818    5   57 0
+   -  -  -  -  - 3.160E-02 0.000E+00  1  1.0         -  -    -   822    6   69 1
+   -  -  -  -  - 3.160E-02 0.000E+00  1  4.0         -  -    -   824    7   75 0
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: NEURAL NETWORKS ****************************************************
+
+Normalize neurons (all elements): 0
+-------------------------------------------------------------------------------
+Atomic short range NN for element  H :
+Number of weights    :   1410
+Number of biases     :     31
+Number of connections:   1441
+Architecture       78   15   15    1
+-------------------------------------------------------------------------------
+   1   G   t   t   l
+   2   G   t   t
+   3   G   t   t
+   4   G   t   t
+   5   G   t   t
+   6   G   t   t
+   7   G   t   t
+   8   G   t   t
+   9   G   t   t
+  10   G   t   t
+  11   G   t   t
+  12   G   t   t
+  13   G   t   t
+  14   G   t   t
+  15   G   t   t
+  16   G
+  17   G
+  18   G
+  19   G
+  20   G
+  21   G
+  22   G
+  23   G
+  24   G
+  25   G
+  26   G
+  27   G
+  28   G
+  29   G
+  30   G
+  31   G
+  32   G
+  33   G
+  34   G
+  35   G
+  36   G
+  37   G
+  38   G
+  39   G
+  40   G
+  41   G
+  42   G
+  43   G
+  44   G
+  45   G
+  46   G
+  47   G
+  48   G
+  49   G
+  50   G
+  51   G
+  52   G
+  53   G
+  54   G
+  55   G
+  56   G
+  57   G
+  58   G
+  59   G
+  60   G
+  61   G
+  62   G
+  63   G
+  64   G
+  65   G
+  66   G
+  67   G
+  68   G
+  69   G
+  70   G
+  71   G
+  72   G
+  73   G
+  74   G
+  75   G
+  76   G
+  77   G
+  78   G
+-------------------------------------------------------------------------------
+Atomic short range NN for element  O :
+Number of weights    :   1485
+Number of biases     :     31
+Number of connections:   1516
+Architecture       83   15   15    1
+-------------------------------------------------------------------------------
+   1   G   t   t   l
+   2   G   t   t
+   3   G   t   t
+   4   G   t   t
+   5   G   t   t
+   6   G   t   t
+   7   G   t   t
+   8   G   t   t
+   9   G   t   t
+  10   G   t   t
+  11   G   t   t
+  12   G   t   t
+  13   G   t   t
+  14   G   t   t
+  15   G   t   t
+  16   G
+  17   G
+  18   G
+  19   G
+  20   G
+  21   G
+  22   G
+  23   G
+  24   G
+  25   G
+  26   G
+  27   G
+  28   G
+  29   G
+  30   G
+  31   G
+  32   G
+  33   G
+  34   G
+  35   G
+  36   G
+  37   G
+  38   G
+  39   G
+  40   G
+  41   G
+  42   G
+  43   G
+  44   G
+  45   G
+  46   G
+  47   G
+  48   G
+  49   G
+  50   G
+  51   G
+  52   G
+  53   G
+  54   G
+  55   G
+  56   G
+  57   G
+  58   G
+  59   G
+  60   G
+  61   G
+  62   G
+  63   G
+  64   G
+  65   G
+  66   G
+  67   G
+  68   G
+  69   G
+  70   G
+  71   G
+  72   G
+  73   G
+  74   G
+  75   G
+  76   G
+  77   G
+  78   G
+  79   G
+  80   G
+  81   G
+  82   G
+  83   G
+-------------------------------------------------------------------------------
+Atomic short range NN for element Ti :
+Number of weights    :   1410
+Number of biases     :     31
+Number of connections:   1441
+Architecture       78   15   15    1
+-------------------------------------------------------------------------------
+   1   G   t   t   l
+   2   G   t   t
+   3   G   t   t
+   4   G   t   t
+   5   G   t   t
+   6   G   t   t
+   7   G   t   t
+   8   G   t   t
+   9   G   t   t
+  10   G   t   t
+  11   G   t   t
+  12   G   t   t
+  13   G   t   t
+  14   G   t   t
+  15   G   t   t
+  16   G
+  17   G
+  18   G
+  19   G
+  20   G
+  21   G
+  22   G
+  23   G
+  24   G
+  25   G
+  26   G
+  27   G
+  28   G
+  29   G
+  30   G
+  31   G
+  32   G
+  33   G
+  34   G
+  35   G
+  36   G
+  37   G
+  38   G
+  39   G
+  40   G
+  41   G
+  42   G
+  43   G
+  44   G
+  45   G
+  46   G
+  47   G
+  48   G
+  49   G
+  50   G
+  51   G
+  52   G
+  53   G
+  54   G
+  55   G
+  56   G
+  57   G
+  58   G
+  59   G
+  60   G
+  61   G
+  62   G
+  63   G
+  64   G
+  65   G
+  66   G
+  67   G
+  68   G
+  69   G
+  70   G
+  71   G
+  72   G
+  73   G
+  74   G
+  75   G
+  76   G
+  77   G
+  78   G
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION SCALING ******************************************
+
+Equal scaling type for all symmetry functions:
+Scaling type::ST_SCALECENTER (3)
+Gs = Smin + (Smax - Smin) * (G - Gmean) / (Gmax - Gmin)
+Smin = 0.000000
+Smax = 1.000000
+Symmetry function scaling statistics from file: scaling.data
+-------------------------------------------------------------------------------
+
+Abbreviations:
+--------------
+ind ..... Symmetry function index.
+min ..... Minimum symmetry function value.
+max ..... Maximum symmetry function value.
+mean .... Mean symmetry function value.
+sigma ... Standard deviation of symmetry function values.
+sf ...... Scaling factor for derivatives.
+Smin .... Desired minimum scaled symmetry function value.
+Smax .... Desired maximum scaled symmetry function value.
+t ....... Scaling type.
+
+Scaling data for symmetry functions element  H :
+-------------------------------------------------------------------------------
+ ind       min       max      mean     sigma        sf  Smin  Smax t
+-------------------------------------------------------------------------------
+   1  0.00E+00  2.00E+00  1.19E+00  2.27E-01  5.00E-01  0.00  1.00 3
+   2  0.00E+00  9.15E-01  7.10E-02  1.25E-01  1.09E+00  0.00  1.00 3
+   3  2.80E-08  2.67E+00  1.46E+00  3.39E-01  3.75E-01  0.00  1.00 3
+   4  0.00E+00  1.77E+00  1.06E+00  1.98E-01  5.64E-01  0.00  1.00 3
+   5  0.00E+00  8.01E-01  5.97E-02  1.08E-01  1.25E+00  0.00  1.00 3
+   6  1.12E-08  2.21E+00  1.19E+00  2.77E-01  4.52E-01  0.00  1.00 3
+   7  0.00E+00  1.50E+00  8.98E-01  1.62E-01  6.68E-01  0.00  1.00 3
+   8  0.00E+00  6.60E-01  4.62E-02  8.55E-02  1.52E+00  0.00  1.00 3
+   9  2.63E-09  1.71E+00  8.97E-01  2.07E-01  5.85E-01  0.00  1.00 3
+  10  0.00E+00  1.19E+00  7.18E-01  1.21E-01  8.42E-01  0.00  1.00 3
+  11  0.00E+00  4.95E-01  3.15E-02  6.06E-02  2.02E+00  0.00  1.00 3
+  12  0.00E+00  3.28E-01  1.81E-02  3.66E-02  3.05E+00  0.00  1.00 3
+  13  6.79E-12  8.89E-01  3.57E-01  8.27E-02  1.12E+00  0.00  1.00 3
+  14  0.00E+00  6.23E-01  3.96E-01  5.13E-02  1.60E+00  0.00  1.00 3
+  15  0.00E+00  1.86E-01  8.15E-03  1.77E-02  5.37E+00  0.00  1.00 3
+  16  2.05E-14  6.72E-01  1.83E-01  4.42E-02  1.49E+00  0.00  1.00 3
+  17  0.00E+00  4.78E-01  2.85E-01  3.14E-02  2.09E+00  0.00  1.00 3
+  18  0.00E+00  2.78E-01  3.20E-02  4.55E-02  3.60E+00  0.00  1.00 3
+  19  0.00E+00  3.52E-01  2.00E-01  1.96E-02  2.84E+00  0.00  1.00 3
+  20  0.00E+00  3.55E-02  4.86E-04  1.32E-03  2.82E+01  0.00  1.00 3
+  21  1.03E-24  3.45E-01  2.68E-02  1.33E-02  2.90E+00  0.00  1.00 3
+  22  0.00E+00  7.95E-01  5.50E-02  1.04E-01  1.26E+00  0.00  1.00 3
+  23  1.01E-34  3.16E-01  6.32E-03  8.63E-03  3.17E+00  0.00  1.00 3
+  24  0.00E+00  1.65E-01  7.13E-02  1.03E-02  6.06E+00  0.00  1.00 3
+  25  0.00E+00  7.55E-01  3.87E-02  8.59E-02  1.32E+00  0.00  1.00 3
+  26  0.00E+00  1.05E-01  2.89E-02  6.38E-03  9.55E+00  0.00  1.00 3
+  27  0.00E+00  1.22E-04  5.44E-09  1.71E-07  8.20E+03  0.00  1.00 3
+  28  0.00E+00  3.86E-01  7.90E-03  2.39E-02  2.59E+00  0.00  1.00 3
+  29  0.00E+00  2.08E-01  1.65E-04  1.15E-03  4.82E+00  0.00  1.00 3
+  30  0.00E+00  2.77E-02  2.00E-07  3.55E-05  3.61E+01  0.00  1.00 3
+  31  0.00E+00  4.04E-01  9.73E-04  1.74E-02  2.48E+00  0.00  1.00 3
+  32  0.00E+00  2.57E-01  6.67E-02  2.92E-02  3.89E+00  0.00  1.00 3
+  33  0.00E+00  3.18E-01  1.12E-01  3.65E-02  3.14E+00  0.00  1.00 3
+  34  0.00E+00  1.69E-02  3.36E-04  9.07E-04  5.90E+01  0.00  1.00 3
+  35  0.00E+00  7.65E-02  6.54E-03  1.08E-02  1.31E+01  0.00  1.00 3
+  36  0.00E+00  2.14E-01  6.19E-02  2.93E-02  4.68E+00  0.00  1.00 3
+  37  0.00E+00  3.00E-02  9.41E-04  2.13E-03  3.33E+01  0.00  1.00 3
+  38  0.00E+00  1.28E-02  5.08E-04  1.05E-03  7.80E+01  0.00  1.00 3
+  39  0.00E+00  4.55E-02  1.77E-02  6.84E-03  2.20E+01  0.00  1.00 3
+  40  0.00E+00  3.16E-01  9.86E-02  3.68E-02  3.16E+00  0.00  1.00 3
+  41  0.00E+00  5.09E-01  2.29E-01  5.90E-02  1.96E+00  0.00  1.00 3
+  42  0.00E+00  3.24E-02  2.92E-03  4.65E-03  3.09E+01  0.00  1.00 3
+  43  0.00E+00  1.75E-01  1.20E-02  2.24E-02  5.71E+00  0.00  1.00 3
+  44  0.00E+00  9.31E-04  6.48E-07  7.83E-06  1.07E+03  0.00  1.00 3
+  45  0.00E+00  2.41E-01  1.10E-01  2.88E-02  4.15E+00  0.00  1.00 3
+  46  0.00E+00  3.04E-02  5.34E-03  3.03E-03  3.29E+01  0.00  1.00 3
+  47  0.00E+00  5.68E-02  4.22E-03  7.43E-03  1.76E+01  0.00  1.00 3
+  48  0.00E+00  2.28E-01  7.80E-02  2.57E-02  4.39E+00  0.00  1.00 3
+  49  0.00E+00  1.00E-01  3.16E-02  1.27E-02  9.96E+00  0.00  1.00 3
+  50  0.00E+00  7.00E-02  2.98E-03  6.37E-03  1.43E+01  0.00  1.00 3
+  51  0.00E+00  5.96E-01  2.52E-01  6.69E-02  1.68E+00  0.00  1.00 3
+  52  0.00E+00  5.21E-02  4.03E-03  6.92E-03  1.92E+01  0.00  1.00 3
+  53  0.00E+00  1.44E-01  4.00E-02  1.94E-02  6.95E+00  0.00  1.00 3
+  54  0.00E+00  1.86E-02  5.25E-04  1.22E-03  5.38E+01  0.00  1.00 3
+  55  0.00E+00  3.73E-02  1.36E-02  5.61E-03  2.68E+01  0.00  1.00 3
+  56  0.00E+00  3.72E-01  1.70E-01  4.29E-02  2.69E+00  0.00  1.00 3
+  57  0.00E+00  2.16E-02  1.77E-03  2.91E-03  4.63E+01  0.00  1.00 3
+  58  0.00E+00  2.96E-02  7.08E-03  5.26E-03  3.38E+01  0.00  1.00 3
+  59  0.00E+00  1.83E-01  8.10E-02  2.13E-02  5.45E+00  0.00  1.00 3
+  60  0.00E+00  2.29E-02  3.26E-03  1.92E-03  4.37E+01  0.00  1.00 3
+  61  0.00E+00  3.84E-02  2.75E-03  4.93E-03  2.60E+01  0.00  1.00 3
+  62  0.00E+00  6.79E-02  5.82E-03  2.94E-03  1.47E+01  0.00  1.00 3
+  63  0.00E+00  6.61E-02  1.56E-02  5.27E-03  1.51E+01  0.00  1.00 3
+  64  0.00E+00  1.35E-02  3.94E-04  9.44E-04  7.38E+01  0.00  1.00 3
+  65  0.00E+00  1.69E-01  6.95E-02  1.67E-02  5.91E+00  0.00  1.00 3
+  66  0.00E+00  7.22E-03  3.72E-04  7.49E-04  1.39E+02  0.00  1.00 3
+  67  0.00E+00  3.30E-02  4.62E-03  2.60E-03  3.03E+01  0.00  1.00 3
+  68  0.00E+00  1.53E-03  2.46E-05  6.79E-05  6.52E+02  0.00  1.00 3
+  69  0.00E+00  1.14E-01  4.92E-02  1.18E-02  8.79E+00  0.00  1.00 3
+  70  0.00E+00  1.41E-02  1.79E-03  9.76E-04  7.07E+01  0.00  1.00 3
+  71  0.00E+00  2.27E-02  1.24E-03  2.61E-03  4.40E+01  0.00  1.00 3
+  72  0.00E+00  7.54E-02  2.07E-02  5.84E-03  1.33E+01  0.00  1.00 3
+  73  0.00E+00  8.54E-03  3.65E-04  1.63E-04  1.17E+02  0.00  1.00 3
+  74  0.00E+00  5.46E-03  8.90E-06  1.94E-05  1.83E+02  0.00  1.00 3
+  75  0.00E+00  1.44E-03  1.49E-06  1.66E-05  6.94E+02  0.00  1.00 3
+  76  0.00E+00  3.79E-04  7.97E-06  1.23E-05  2.64E+03  0.00  1.00 3
+  77  0.00E+00  3.38E-03  4.24E-06  1.10E-05  2.96E+02  0.00  1.00 3
+  78  0.00E+00  5.52E-04  5.17E-07  9.28E-06  1.81E+03  0.00  1.00 3
+-------------------------------------------------------------------------------
+Scaling data for symmetry functions element  O :
+-------------------------------------------------------------------------------
+ ind       min       max      mean     sigma        sf  Smin  Smax t
+-------------------------------------------------------------------------------
+   1  0.00E+00  1.10E+00  4.80E-01  3.99E-01  9.07E-01  0.00  1.00 3
+   2  0.00E+00  2.99E+00  9.66E-01  8.66E-01  3.34E-01  0.00  1.00 3
+   3  0.00E+00  9.84E-01  4.27E-01  3.56E-01  1.02E+00  0.00  1.00 3
+   4  0.00E+00  8.33E-01  3.60E-01  3.02E-01  1.20E+00  0.00  1.00 3
+   5  0.00E+00  8.89E-01  5.42E-01  1.85E-01  1.13E+00  0.00  1.00 3
+   6  0.00E+00  1.52E+00  4.95E-01  4.70E-01  6.58E-01  0.00  1.00 3
+   7  0.00E+00  5.53E-01  3.20E-01  1.17E-01  1.81E+00  0.00  1.00 3
+   8  0.00E+00  4.91E-01  2.05E-01  1.75E-01  2.04E+00  0.00  1.00 3
+   9  0.00E+00  3.23E-01  1.34E-01  1.15E-01  3.09E+00  0.00  1.00 3
+  10  0.00E+00  9.32E-01  2.60E-01  2.64E-01  1.07E+00  0.00  1.00 3
+  11  0.00E+00  2.23E-01  4.58E-02  2.03E-02  4.49E+00  0.00  1.00 3
+  12  0.00E+00  1.86E-01  7.39E-02  6.41E-02  5.37E+00  0.00  1.00 3
+  13  0.00E+00  7.02E-01  1.83E-01  1.91E-01  1.42E+00  0.00  1.00 3
+  14  0.00E+00  1.28E-01  7.98E-03  4.70E-03  7.82E+00  0.00  1.00 3
+  15  0.00E+00  1.01E-01  3.06E-02  2.69E-02  9.94E+00  0.00  1.00 3
+  16  0.00E+00  6.05E-01  2.29E-01  1.87E-01  1.65E+00  0.00  1.00 3
+  17  0.00E+00  4.87E-01  1.19E-01  1.26E-01  2.05E+00  0.00  1.00 3
+  18  0.00E+00  3.89E-02  7.86E-03  7.06E-03  2.57E+01  0.00  1.00 3
+  19  0.00E+00  1.48E+00  9.91E-01  3.02E-01  6.75E-01  0.00  1.00 3
+  20  0.00E+00  3.15E-01  6.51E-02  7.01E-02  3.18E+00  0.00  1.00 3
+  21  0.00E+00  1.97E-02  2.56E-05  3.60E-04  5.07E+01  0.00  1.00 3
+  22  0.00E+00  9.37E-03  9.59E-04  9.13E-04  1.07E+02  0.00  1.00 3
+  23  0.00E+00  7.54E-01  1.76E-01  1.53E-01  1.33E+00  0.00  1.00 3
+  24  0.00E+00  1.62E-01  2.64E-02  2.89E-02  6.18E+00  0.00  1.00 3
+  25  0.00E+00  4.11E-03  2.06E-06  4.89E-05  2.43E+02  0.00  1.00 3
+  26  0.00E+00  1.31E-03  3.77E-05  4.23E-05  7.62E+02  0.00  1.00 3
+  27  0.00E+00  5.05E-01  1.53E-01  1.38E-01  1.98E+00  0.00  1.00 3
+  28  0.00E+00  1.12E+00  1.62E-01  1.74E-01  8.93E-01  0.00  1.00 3
+  29  0.00E+00  2.97E-01  3.08E-04  7.22E-03  3.37E+00  0.00  1.00 3
+  30  0.00E+00  1.07E+00  2.89E-01  3.09E-01  9.35E-01  0.00  1.00 3
+  31  0.00E+00  2.42E-01  4.35E-02  4.07E-02  4.13E+00  0.00  1.00 3
+  32  0.00E+00  6.06E-02  2.40E-02  1.48E-02  1.65E+01  0.00  1.00 3
+  33  0.00E+00  3.85E-02  1.04E-02  1.03E-02  2.60E+01  0.00  1.00 3
+  34  0.00E+00  7.13E-01  1.51E-01  1.32E-01  1.40E+00  0.00  1.00 3
+  35  0.00E+00  2.90E-01  1.11E-01  9.57E-02  3.45E+00  0.00  1.00 3
+  36  0.00E+00  5.04E-02  1.26E-02  1.19E-02  1.99E+01  0.00  1.00 3
+  37  0.00E+00  2.85E-02  2.14E-03  4.20E-03  3.51E+01  0.00  1.00 3
+  38  0.00E+00  1.65E-02  5.18E-03  4.94E-03  6.06E+01  0.00  1.00 3
+  39  0.00E+00  1.03E-02  3.12E-03  3.20E-03  9.73E+01  0.00  1.00 3
+  40  0.00E+00  3.93E-01  6.69E-02  6.89E-02  2.54E+00  0.00  1.00 3
+  41  0.00E+00  4.56E-01  1.04E-01  8.99E-02  2.19E+00  0.00  1.00 3
+  42  0.00E+00  8.00E-02  3.33E-02  1.97E-02  1.25E+01  0.00  1.00 3
+  43  0.00E+00  1.77E-01  6.94E-02  5.89E-02  5.64E+00  0.00  1.00 3
+  44  0.00E+00  1.65E-02  4.64E-03  4.22E-03  6.05E+01  0.00  1.00 3
+  45  0.00E+00  3.81E-03  1.71E-04  1.44E-04  2.63E+02  0.00  1.00 3
+  46  0.00E+00  2.38E-01  6.16E-02  5.48E-02  4.21E+00  0.00  1.00 3
+  47  0.00E+00  3.07E-03  6.97E-04  6.28E-04  3.26E+02  0.00  1.00 3
+  48  0.00E+00  3.10E-01  5.87E-02  6.61E-02  3.22E+00  0.00  1.00 3
+  49  0.00E+00  1.70E-01  2.82E-02  2.68E-02  5.88E+00  0.00  1.00 3
+  50  0.00E+00  5.27E-02  5.92E-03  1.02E-02  1.90E+01  0.00  1.00 3
+  51  0.00E+00  2.73E-02  7.09E-03  7.02E-03  3.66E+01  0.00  1.00 3
+  52  0.00E+00  5.23E-01  9.22E-02  9.80E-02  1.91E+00  0.00  1.00 3
+  53  0.00E+00  1.02E-01  4.12E-02  2.56E-02  9.82E+00  0.00  1.00 3
+  54  0.00E+00  2.02E-01  7.68E-02  6.64E-02  4.95E+00  0.00  1.00 3
+  55  0.00E+00  1.10E-01  1.51E-02  1.78E-02  9.11E+00  0.00  1.00 3
+  56  0.00E+00  2.26E-02  1.52E-03  3.08E-03  4.42E+01  0.00  1.00 3
+  57  0.00E+00  9.54E-03  1.20E-03  8.24E-04  1.05E+02  0.00  1.00 3
+  58  0.00E+00  2.83E-02  3.16E-03  4.22E-03  3.53E+01  0.00  1.00 3
+  59  0.00E+00  2.64E-03  8.50E-05  7.33E-05  3.78E+02  0.00  1.00 3
+  60  0.00E+00  1.84E-01  4.46E-02  4.03E-02  5.44E+00  0.00  1.00 3
+  61  0.00E+00  4.02E-02  1.55E-02  1.29E-02  2.49E+01  0.00  1.00 3
+  62  0.00E+00  1.79E-03  3.83E-04  3.48E-04  5.59E+02  0.00  1.00 3
+  63  0.00E+00  1.39E-01  1.91E-02  2.19E-02  7.18E+00  0.00  1.00 3
+  64  0.00E+00  1.68E-02  1.06E-03  2.19E-03  5.94E+01  0.00  1.00 3
+  65  0.00E+00  9.26E-03  2.77E-03  2.51E-03  1.08E+02  0.00  1.00 3
+  66  0.00E+00  4.45E-03  1.00E-03  1.00E-03  2.25E+02  0.00  1.00 3
+  67  0.00E+00  1.08E-01  1.65E-02  1.56E-02  9.27E+00  0.00  1.00 3
+  68  0.00E+00  1.48E-02  1.03E-03  1.75E-03  6.74E+01  0.00  1.00 3
+  69  0.00E+00  9.43E-03  3.08E-03  2.24E-03  1.06E+02  0.00  1.00 3
+  70  0.00E+00  3.55E-02  1.29E-02  1.13E-02  2.82E+01  0.00  1.00 3
+  71  0.00E+00  4.18E-03  7.51E-04  7.40E-04  2.39E+02  0.00  1.00 3
+  72  0.00E+00  5.37E-02  5.12E-03  6.10E-03  1.86E+01  0.00  1.00 3
+  73  0.00E+00  2.14E-03  2.19E-04  2.11E-04  4.67E+02  0.00  1.00 3
+  74  0.00E+00  4.32E-03  1.40E-03  9.98E-04  2.32E+02  0.00  1.00 3
+  75  0.00E+00  2.15E-02  8.13E-03  7.05E-03  4.64E+01  0.00  1.00 3
+  76  0.00E+00  9.75E-04  1.64E-04  1.56E-04  1.03E+03  0.00  1.00 3
+  77  0.00E+00  5.40E-02  9.34E-03  9.22E-03  1.85E+01  0.00  1.00 3
+  78  0.00E+00  5.36E-03  2.00E-03  1.70E-03  1.87E+02  0.00  1.00 3
+  79  0.00E+00  1.31E-02  9.53E-04  1.14E-03  7.61E+01  0.00  1.00 3
+  80  0.00E+00  1.21E-03  9.83E-07  1.27E-05  8.28E+02  0.00  1.00 3
+  81  0.00E+00  3.32E-03  1.88E-05  3.73E-05  3.01E+02  0.00  1.00 3
+  82  0.00E+00  5.66E-03  2.40E-04  2.95E-04  1.77E+02  0.00  1.00 3
+  83  0.00E+00  2.54E-04  1.31E-07  2.40E-06  3.94E+03  0.00  1.00 3
+-------------------------------------------------------------------------------
+Scaling data for symmetry functions element Ti :
+-------------------------------------------------------------------------------
+ ind       min       max      mean     sigma        sf  Smin  Smax t
+-------------------------------------------------------------------------------
+   1  5.74E-01  2.11E+00  1.77E+00  1.60E-01  6.50E-01  0.00  1.00 3
+   2  5.64E-02  7.48E-01  5.10E-01  1.01E-01  1.45E+00  0.00  1.00 3
+   3  0.00E+00  1.43E+00  2.01E-01  2.44E-01  6.97E-01  0.00  1.00 3
+   4  5.10E-01  1.87E+00  1.57E+00  1.37E-01  7.35E-01  0.00  1.00 3
+   5  4.31E-01  1.57E+00  1.32E+00  1.10E-01  8.77E-01  0.00  1.00 3
+   6  2.93E-02  4.91E-01  3.22E-01  6.31E-02  2.17E+00  0.00  1.00 3
+   7  0.00E+00  8.55E-01  1.06E-01  1.36E-01  1.17E+00  0.00  1.00 3
+   8  0.00E+00  5.33E-01  6.07E-02  8.11E-02  1.88E+00  0.00  1.00 3
+   9  1.65E-01  5.84E-01  4.93E-01  2.89E-02  2.39E+00  0.00  1.00 3
+  10  1.60E-03  8.90E-02  4.09E-02  8.38E-03  1.14E+01  0.00  1.00 3
+  11  9.17E-02  3.31E-01  2.72E-01  1.47E-02  4.17E+00  0.00  1.00 3
+  12  1.90E-04  2.59E-02  9.34E-03  2.27E-03  3.90E+01  0.00  1.00 3
+  13  0.00E+00  3.56E-02  1.63E-03  2.73E-03  2.81E+01  0.00  1.00 3
+  14  6.79E-06  4.16E-03  1.03E-03  3.44E-04  2.41E+02  0.00  1.00 3
+  15  0.00E+00  1.06E+00  1.72E-01  1.93E-01  9.42E-01  0.00  1.00 3
+  16  2.80E-01  1.12E+00  8.44E-01  1.19E-01  1.19E+00  0.00  1.00 3
+  17  0.00E+00  1.17E-02  1.38E-04  2.76E-04  8.58E+01  0.00  1.00 3
+  18  8.96E-03  5.14E-02  2.89E-02  2.56E-03  2.36E+01  0.00  1.00 3
+  19  0.00E+00  1.54E+00  1.85E-01  2.33E-01  6.48E-01  0.00  1.00 3
+  20  9.44E-04  1.17E-02  3.53E-03  5.88E-04  9.30E+01  0.00  1.00 3
+  21  0.00E+00  1.24E+00  1.30E-01  1.89E-01  8.03E-01  0.00  1.00 3
+  22  1.25E-03  5.06E-01  1.69E-01  4.42E-02  1.98E+00  0.00  1.00 3
+  23  0.00E+00  1.22E-04  1.83E-08  3.14E-07  8.20E+03  0.00  1.00 3
+  24  0.00E+00  5.88E-02  2.62E-03  4.51E-03  1.70E+01  0.00  1.00 3
+  25  0.00E+00  1.51E-01  1.74E-02  2.30E-02  6.60E+00  0.00  1.00 3
+  26  0.00E+00  1.35E-02  2.24E-03  2.61E-03  7.40E+01  0.00  1.00 3
+  27  8.63E-03  1.39E-01  9.97E-02  1.40E-02  7.68E+00  0.00  1.00 3
+  28  9.16E-04  6.00E-02  3.29E-02  8.06E-03  1.69E+01  0.00  1.00 3
+  29  3.38E-05  8.08E-03  2.71E-03  9.87E-04  1.24E+02  0.00  1.00 3
+  30  0.00E+00  1.91E-01  1.36E-02  2.02E-02  5.23E+00  0.00  1.00 3
+  31  0.00E+00  4.80E-01  5.92E-02  7.45E-02  2.08E+00  0.00  1.00 3
+  32  0.00E+00  3.91E-02  6.34E-03  6.88E-03  2.56E+01  0.00  1.00 3
+  33  1.96E-02  2.42E-01  1.62E-01  3.03E-02  4.49E+00  0.00  1.00 3
+  34  9.84E-03  2.18E-01  1.37E-01  3.10E-02  4.80E+00  0.00  1.00 3
+  35  0.00E+00  1.12E-01  9.01E-03  1.29E-02  8.92E+00  0.00  1.00 3
+  36  0.00E+00  2.98E-01  3.77E-02  4.71E-02  3.36E+00  0.00  1.00 3
+  37  0.00E+00  1.98E-02  3.17E-03  3.39E-03  5.04E+01  0.00  1.00 3
+  38  1.06E-02  1.06E-01  6.70E-02  1.38E-02  1.05E+01  0.00  1.00 3
+  39  8.24E-03  1.43E-01  9.22E-02  1.99E-02  7.40E+00  0.00  1.00 3
+  40  1.38E-04  8.70E-03  3.62E-03  1.26E-03  1.17E+02  0.00  1.00 3
+  41  9.14E-07  1.51E-02  8.06E-03  2.67E-03  6.64E+01  0.00  1.00 3
+  42  9.43E-09  1.94E-03  4.98E-04  1.76E-04  5.15E+02  0.00  1.00 3
+  43  5.64E-03  5.75E-02  3.79E-02  7.73E-03  1.93E+01  0.00  1.00 3
+  44  0.00E+00  1.01E-01  1.12E-02  1.51E-02  9.93E+00  0.00  1.00 3
+  45  0.00E+00  8.08E-03  1.24E-03  1.47E-03  1.24E+02  0.00  1.00 3
+  46  4.72E-04  3.91E-02  2.01E-02  4.87E-03  2.59E+01  0.00  1.00 3
+  47  1.46E-05  4.77E-03  1.43E-03  5.25E-04  2.10E+02  0.00  1.00 3
+  48  0.00E+00  3.37E-01  4.00E-02  5.15E-02  2.96E+00  0.00  1.00 3
+  49  0.00E+00  2.34E-02  3.58E-03  3.97E-03  4.27E+01  0.00  1.00 3
+  50  5.87E-03  1.45E-01  8.96E-02  1.98E-02  7.21E+00  0.00  1.00 3
+  51  1.11E-04  1.20E-02  4.16E-03  1.51E-03  8.44E+01  0.00  1.00 3
+  52  3.26E-04  2.11E-02  1.50E-02  1.73E-03  4.81E+01  0.00  1.00 3
+  53  2.33E-05  5.72E-03  2.53E-03  6.26E-04  1.76E+02  0.00  1.00 3
+  54  0.00E+00  1.20E-02  1.79E-03  1.97E-03  8.34E+01  0.00  1.00 3
+  55  6.27E-03  6.71E-02  4.19E-02  8.70E-03  1.64E+01  0.00  1.00 3
+  56  5.04E-03  9.52E-02  6.13E-02  1.29E-02  1.11E+01  0.00  1.00 3
+  57  6.63E-05  5.12E-03  1.90E-03  6.74E-04  1.98E+02  0.00  1.00 3
+  58  0.00E+00  5.62E-04  1.49E-06  9.76E-06  1.78E+03  0.00  1.00 3
+  59  4.06E-07  1.05E-02  5.46E-03  1.81E-03  9.52E+01  0.00  1.00 3
+  60  5.13E-09  1.18E-03  2.67E-04  9.77E-05  8.48E+02  0.00  1.00 3
+  61  0.00E+00  9.72E-02  1.26E-02  1.63E-02  1.03E+01  0.00  1.00 3
+  62  3.61E-03  3.82E-02  2.50E-02  5.05E-03  2.89E+01  0.00  1.00 3
+  63  0.00E+00  1.33E-02  1.28E-03  1.86E-03  7.53E+01  0.00  1.00 3
+  64  8.98E-04  1.98E-02  1.32E-02  1.70E-03  5.28E+01  0.00  1.00 3
+  65  1.56E-05  4.48E-03  1.77E-03  4.36E-04  2.24E+02  0.00  1.00 3
+  66  0.00E+00  1.28E-02  7.97E-04  1.33E-03  7.80E+01  0.00  1.00 3
+  67  1.04E-03  2.49E-02  1.58E-02  2.67E-03  4.20E+01  0.00  1.00 3
+  68  4.87E-04  2.06E-02  1.11E-02  2.34E-03  4.97E+01  0.00  1.00 3
+  69  1.12E-06  7.69E-04  1.38E-04  5.33E-05  1.30E+03  0.00  1.00 3
+  70  0.00E+00  1.86E-03  1.32E-04  2.07E-04  5.37E+02  0.00  1.00 3
+  71  7.18E-05  3.71E-03  2.44E-03  2.60E-04  2.75E+02  0.00  1.00 3
+  72  0.00E+00  4.36E-02  4.60E-03  6.57E-03  2.29E+01  0.00  1.00 3
+  73  3.86E-04  8.16E-03  4.13E-03  8.30E-04  1.29E+02  0.00  1.00 3
+  74  4.55E-04  1.30E-02  8.00E-03  1.60E-03  7.96E+01  0.00  1.00 3
+  75  7.43E-07  3.26E-04  6.14E-05  2.35E-05  3.07E+03  0.00  1.00 3
+  76  0.00E+00  2.25E-02  2.47E-03  3.63E-03  4.44E+01  0.00  1.00 3
+  77  8.72E-05  3.38E-03  5.05E-04  1.01E-04  3.03E+02  0.00  1.00 3
+  78  0.00E+00  4.12E-04  6.07E-06  1.26E-05  2.43E+03  0.00  1.00 3
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** SETUP: SYMMETRY FUNCTION STATISTICS ***************************************
+
+Equal symmetry function statistics for all elements.
+Collect min/max/mean/sigma                        : 0
+Collect extrapolation warnings                    : 0
+Write extrapolation warnings immediately to stderr: 0
+Halt on any extrapolation warning                 : 0
+*******************************************************************************
+
+*** SETUP: RANDOM NUMBER GENERATOR ********************************************
+
+Random number generator seed: 7559
+Seed for rank 0: 7559
+Seed for rank 1: 4244481808
+Seed for rank 2: 4148946813
+Seed for rank 3: 2186678540
+Seed for rank 4: 2885427728
+Seed for rank 5: 2627481775
+Seed for rank 6: 2556600432
+Seed for rank 7: 1647393095
+Seed for rank 8: 3929869519
+Seed for rank 9: 1559440689
+Seed for rank 10: 1616309553
+Seed for rank 11: 3897710092
+Seed for rank 12: 3794055517
+Seed for rank 13: 2115966062
+Seed for rank 14: 3996115777
+Seed for rank 15: 1725738886
+Seed for rank 16: 2865502208
+Seed for rank 17: 13084219
+Seed for rank 18: 2106155895
+Seed for rank 19: 2104840420
+Seed for rank 20: 1889446717
+Seed for rank 21: 3651490367
+Seed for rank 22: 1290345959
+Seed for rank 23: 2645403854
+Seed for rank 24: 327179267
+Seed for rank 25: 1184358390
+Seed for rank 26: 3739990835
+Seed for rank 27: 3989361632
+Seed for rank 28: 4004667527
+Seed for rank 29: 2414504901
+Seed for rank 30: 3104384292
+Seed for rank 31: 2710737051
+Seed for rank 32: 3942190965
+Seed for rank 33: 3997195018
+Seed for rank 34: 3932496046
+Seed for rank 35: 3917944602
+Seed for rank 36: 768075546
+Seed for rank 37: 2529589889
+Seed for rank 38: 2779576473
+Seed for rank 39: 241919219
+Seed for rank 40: 240038662
+Seed for rank 41: 2075945947
+Seed for rank 42: 2640316915
+Seed for rank 43: 1895944900
+Seed for rank 44: 2383500663
+Seed for rank 45: 1968238718
+Seed for rank 46: 12070916
+Seed for rank 47: 2110097428
+Seed for rank 48: 4230421544
+Seed for rank 49: 3577136749
+Seed for rank 50: 288868764
+Seed for rank 51: 2524518210
+Seed for rank 52: 4067339765
+Seed for rank 53: 2311239414
+Seed for rank 54: 2115850861
+Seed for rank 55: 1662692112
+Seed for rank 56: 2377155453
+Seed for rank 57: 3104286521
+Seed for rank 58: 3133128742
+Seed for rank 59: 2490166492
+Seed for rank 60: 4154694082
+Seed for rank 61: 1455608506
+Seed for rank 62: 2777172218
+Seed for rank 63: 3144803912
+Seed for rank 64: 1614093888
+Seed for rank 65: 430142137
+Seed for rank 66: 2357263137
+Seed for rank 67: 1977945888
+Seed for rank 68: 1381716892
+Seed for rank 69: 282808955
+Seed for rank 70: 3340700271
+Seed for rank 71: 3606048838
+Seed for rank 72: 1968788854
+Seed for rank 73: 2167425215
+Seed for rank 74: 3639655485
+Seed for rank 75: 2424507634
+Seed for rank 76: 2829843915
+Seed for rank 77: 1049813573
+Seed for rank 78: 942049757
+Seed for rank 79: 1993030576
+Seed for rank 80: 3443091186
+Seed for rank 81: 21736814
+Seed for rank 82: 2378937324
+Seed for rank 83: 336215972
+Seed for rank 84: 3039388146
+Seed for rank 85: 658456547
+Seed for rank 86: 2010078912
+Seed for rank 87: 3038070855
+Seed for rank 88: 1319319124
+Seed for rank 89: 3679256614
+Seed for rank 90: 3239248944
+Seed for rank 91: 1067173005
+Seed for rank 92: 3969628912
+Seed for rank 93: 1367594559
+Seed for rank 94: 1720170076
+Seed for rank 95: 3384504563
+Seed for rank 96: 3510322273
+Seed for rank 97: 3525399512
+Seed for rank 98: 1167683457
+Seed for rank 99: 3733268906
+Seed for rank 100: 2461930014
+Seed for rank 101: 976903997
+Seed for rank 102: 877779630
+Seed for rank 103: 4261231238
+Seed for rank 104: 4108674234
+Seed for rank 105: 2101577862
+Seed for rank 106: 3068790284
+Seed for rank 107: 1623552322
+Seed for rank 108: 2210338216
+Seed for rank 109: 302067999
+Seed for rank 110: 634318215
+Seed for rank 111: 1807354352
+Seed for rank 112: 1908052923
+Seed for rank 113: 3434343642
+Seed for rank 114: 2695019847
+Seed for rank 115: 1710074836
+Seed for rank 116: 305940706
+Seed for rank 117: 1159941065
+Seed for rank 118: 1476557036
+Seed for rank 119: 1513425402
+Seed for rank 120: 332846521
+Seed for rank 121: 3852908867
+Seed for rank 122: 605692868
+Seed for rank 123: 1932317668
+Seed for rank 124: 1448438298
+Seed for rank 125: 69087893
+Seed for rank 126: 3430194447
+Seed for rank 127: 2068250499
+Seed for rank 128: 54664222
+Seed for rank 129: 688268321
+Seed for rank 130: 4204464827
+Seed for rank 131: 1326708728
+Seed for rank 132: 2245884584
+Seed for rank 133: 2452519010
+Seed for rank 134: 3042603801
+Seed for rank 135: 1325063226
+Seed for rank 136: 2130295742
+Seed for rank 137: 760420432
+Seed for rank 138: 1026887737
+Seed for rank 139: 3041128374
+Seed for rank 140: 3305386860
+Seed for rank 141: 2674121908
+Seed for rank 142: 4218022643
+Seed for rank 143: 3502908868
+Seed for rank 144: 2355657371
+Seed for rank 145: 1718400653
+Seed for rank 146: 2527760139
+Seed for rank 147: 1253689259
+Seed for rank 148: 1128536027
+Seed for rank 149: 3007869695
+Seed for rank 150: 2966092673
+Seed for rank 151: 1427997660
+Seed for rank 152: 3230308618
+Seed for rank 153: 203409339
+Seed for rank 154: 2724149066
+Seed for rank 155: 3902314705
+Seed for rank 156: 3960759874
+Seed for rank 157: 253208426
+Seed for rank 158: 1036896690
+Seed for rank 159: 1988018371
+Seed for rank 160: 1945025631
+Seed for rank 161: 4227272426
+Seed for rank 162: 3919183056
+Seed for rank 163: 255300168
+Seed for rank 164: 657075718
+Seed for rank 165: 2118421562
+Seed for rank 166: 1557433655
+Seed for rank 167: 440480687
+Seed for rank 168: 3934923163
+Seed for rank 169: 3533463801
+Seed for rank 170: 2090453493
+Seed for rank 171: 4221756472
+Seed for rank 172: 2909303093
+Seed for rank 173: 2484307952
+Seed for rank 174: 3600679077
+Seed for rank 175: 4097714783
+Seed for rank 176: 828425879
+Seed for rank 177: 3670892976
+Seed for rank 178: 2083762213
+Seed for rank 179: 2059235081
+Seed for rank 180: 1462618453
+Seed for rank 181: 2261541438
+Seed for rank 182: 2051238198
+Seed for rank 183: 974458111
+Seed for rank 184: 255024019
+Seed for rank 185: 2705069008
+Seed for rank 186: 3446167962
+Seed for rank 187: 2250089024
+Seed for rank 188: 3489333366
+Seed for rank 189: 3429952728
+Seed for rank 190: 2580160398
+Seed for rank 191: 1098623493
+Seed for rank 192: 2882428413
+Seed for rank 193: 2098938699
+Seed for rank 194: 1142223467
+Seed for rank 195: 2795125539
+Seed for rank 196: 3004792631
+Seed for rank 197: 840433444
+Seed for rank 198: 211883652
+Seed for rank 199: 2720836037
+Seed for rank 200: 1509273066
+Seed for rank 201: 2764489881
+Seed for rank 202: 2246374602
+Seed for rank 203: 4170232410
+Seed for rank 204: 1930549745
+Seed for rank 205: 2236680406
+Seed for rank 206: 3466140714
+Seed for rank 207: 2563815316
+Seed for rank 208: 2705007071
+Seed for rank 209: 1286401355
+Seed for rank 210: 924615543
+Seed for rank 211: 2886301436
+Seed for rank 212: 2383457004
+Seed for rank 213: 21993563
+Seed for rank 214: 1517282801
+Seed for rank 215: 3981073833
+Seed for rank 216: 3899197402
+Seed for rank 217: 1780964563
+Seed for rank 218: 2081927174
+Seed for rank 219: 2964080887
+Seed for rank 220: 1561179262
+Seed for rank 221: 2455540961
+Seed for rank 222: 3256861141
+Seed for rank 223: 764613582
+Seed for rank 224: 3677232032
+Seed for rank 225: 3289116943
+Seed for rank 226: 391944496
+Seed for rank 227: 3190974469
+Seed for rank 228: 2919404586
+Seed for rank 229: 1303848478
+Seed for rank 230: 294346819
+Seed for rank 231: 4104670260
+Seed for rank 232: 3653136446
+Seed for rank 233: 1115708962
+Seed for rank 234: 984010160
+Seed for rank 235: 958836885
+Seed for rank 236: 2843680320
+Seed for rank 237: 848410110
+Seed for rank 238: 70011844
+Seed for rank 239: 2303063416
+Seed for rank 240: 1939436682
+Seed for rank 241: 2297199815
+Seed for rank 242: 1060535109
+Seed for rank 243: 2164932327
+Seed for rank 244: 3905503870
+Seed for rank 245: 925212222
+Seed for rank 246: 1345753904
+Seed for rank 247: 1587909272
+Seed for rank 248: 544591853
+Seed for rank 249: 2046032759
+Seed for rank 250: 279904945
+Seed for rank 251: 1611279962
+Seed for rank 252: 244828757
+Seed for rank 253: 1150657371
+Seed for rank 254: 1900340769
+Seed for rank 255: 909462294
+Seed for rank 256: 3800888295
+Seed for rank 257: 1031873034
+Seed for rank 258: 4238087869
+Seed for rank 259: 846616287
+Seed for rank 260: 1171457853
+Seed for rank 261: 1791043633
+Seed for rank 262: 3978326834
+Seed for rank 263: 2556511528
+Seed for rank 264: 3215797442
+Seed for rank 265: 430293898
+Seed for rank 266: 2809526118
+Seed for rank 267: 3672742035
+Seed for rank 268: 3592225963
+Seed for rank 269: 2719135049
+Seed for rank 270: 3450007112
+Seed for rank 271: 2894926854
+Seed for rank 272: 1135188992
+Seed for rank 273: 4133666267
+Seed for rank 274: 422970891
+Seed for rank 275: 3329500316
+Seed for rank 276: 2227252038
+Seed for rank 277: 2948750282
+Seed for rank 278: 1366365411
+Seed for rank 279: 3118408419
+Seed for rank 280: 3195262850
+Seed for rank 281: 771823691
+Seed for rank 282: 4253208079
+Seed for rank 283: 2134648055
+Seed for rank 284: 2606702964
+Seed for rank 285: 948034514
+Seed for rank 286: 3301632181
+Seed for rank 287: 865296459
+Seed for rank 288: 2213788372
+Seed for rank 289: 2887035694
+Seed for rank 290: 4036849933
+Seed for rank 291: 4236149742
+Seed for rank 292: 3866559754
+Seed for rank 293: 1577980424
+Seed for rank 294: 2103029342
+Seed for rank 295: 962400599
+Seed for rank 296: 1105894441
+Seed for rank 297: 2818129398
+Seed for rank 298: 2769282873
+Seed for rank 299: 1752164902
+Seed for rank 300: 1747246029
+Seed for rank 301: 3736310249
+Seed for rank 302: 2453837945
+Seed for rank 303: 3264850198
+Seed for rank 304: 3641686145
+Seed for rank 305: 2314085246
+Seed for rank 306: 989396447
+Seed for rank 307: 2143618100
+Seed for rank 308: 255321034
+Seed for rank 309: 1073421433
+Seed for rank 310: 3923445978
+Seed for rank 311: 4239573628
+Seed for rank 312: 703616627
+Seed for rank 313: 3615051640
+Seed for rank 314: 2118096317
+Seed for rank 315: 100040460
+Seed for rank 316: 2847627005
+Seed for rank 317: 204083414
+Seed for rank 318: 1067335406
+Seed for rank 319: 3371068460
+Seed for rank 320: 3184632652
+Seed for rank 321: 2102289521
+Seed for rank 322: 1321330858
+Seed for rank 323: 2418376214
+Seed for rank 324: 681070533
+Seed for rank 325: 876239093
+Seed for rank 326: 2189276151
+Seed for rank 327: 275535264
+Seed for rank 328: 2771048459
+Seed for rank 329: 1356057042
+Seed for rank 330: 3748736942
+Seed for rank 331: 480981624
+Seed for rank 332: 2222090132
+Seed for rank 333: 2883887512
+Seed for rank 334: 2385272104
+Seed for rank 335: 2761361389
+Seed for rank 336: 299466052
+Seed for rank 337: 2433348508
+Seed for rank 338: 3277619368
+Seed for rank 339: 2961766848
+Seed for rank 340: 3182179119
+Seed for rank 341: 3228014677
+Seed for rank 342: 1286826306
+Seed for rank 343: 2958817467
+Seed for rank 344: 3705375764
+Seed for rank 345: 2309718130
+Seed for rank 346: 1456725528
+Seed for rank 347: 853563181
+Seed for rank 348: 88608574
+Seed for rank 349: 372486318
+Seed for rank 350: 550026207
+Seed for rank 351: 192766147
+Seed for rank 352: 1231562966
+Seed for rank 353: 805418971
+Seed for rank 354: 2144797303
+Seed for rank 355: 176972713
+Seed for rank 356: 813583963
+Seed for rank 357: 503172750
+Seed for rank 358: 2569794597
+Seed for rank 359: 2889037352
+Seed for rank 360: 1391728083
+Seed for rank 361: 3307284988
+Seed for rank 362: 636512507
+Seed for rank 363: 345160105
+Seed for rank 364: 2504049782
+Seed for rank 365: 809997485
+Seed for rank 366: 1889203366
+Seed for rank 367: 3033074685
+Seed for rank 368: 4214140109
+Seed for rank 369: 2978197041
+Seed for rank 370: 2836429678
+Seed for rank 371: 3689787233
+Seed for rank 372: 3313993313
+Seed for rank 373: 250323858
+Seed for rank 374: 3095474036
+Seed for rank 375: 4030567428
+Seed for rank 376: 3142684454
+Seed for rank 377: 3482332127
+Seed for rank 378: 2601835429
+Seed for rank 379: 3154264563
+Seed for rank 380: 385364889
+Seed for rank 381: 3054998236
+Seed for rank 382: 3162224200
+Seed for rank 383: 1507509611
+Seed for global RNG: 18988610
+*******************************************************************************
+
+*** STRUCTURE DISTRIBUTION ****************************************************
+
+Reading configurations from data file: input.data.
+Total number of structures: 18930
+Number of structures per processor: 49 (270) or 50 (114)
+Distributed 18930 structures, 1293258514 bytes (1233.35 MiB) transferred.
+Number of local structures: 49
+*******************************************************************************
+
+*** DEFINE TRAINING/TEST SETS *************************************************
+
+Desired test set ratio      : 0.100000
+Total number of energies    : 18930
+Number of training energies : 16964
+Number of test     energies : 1966
+Number of training forces   : 15277770
+Number of test     forces   : 1778436
+Actual test set fraction    : 0.103856
+*******************************************************************************
+
+*** WRITE TRAINING/TEST SETS **************************************************
+
+Writing training/test set to files:
+ - train.data
+ - test.data
+*******************************************************************************
+
+*** WEIGHT INITIALIZATION *****************************************************
+
+Initial weights selected randomly in interval [-1.000000, 1.000000).
+Weights modified according to Nguyen Widrow scheme.
+*******************************************************************************
+
+*** SETUP: TRAINING ***********************************************************
+
+Forces will be used for training.
+Force update weight:   2.00E+00
+Weight update via Kalman filter selected: updaterType::UT_KF (1)
+Parallel training (all ranks update) selected: ParallelMode::PM_TRAIN_ALL (1)
+Full Jacobian selected: JacobianMode::JM_FULL (2)
+Each update candidate generates one Jacobi matrix row entry.
+Combined updater for all elements selected: UpdateStrategy::US_COMBINED (0)
+Number of weight updaters    : 1
+Total fit parameters         : 4398
+Selection mode starting with epoch 0:
+Update candidates chosen randomly above RMSE threshold: SelectionMode::SM_THRESHOLD (2)
+Energy threshold: 0.80 * RMSE(Energy)
+Force  threshold: 0.80 * RMSE(Force)
+Maximum number of update candidate trials: 3
+-------------------------------------------------------------------------------
+Symmetry function memory is reused (HIGH MEMORY USAGE!).
+Training will be stopped after 50 epochs.
+Energy comparison will be written every 5 epochs.
+Force comparison will be written every 10 epochs.
+Weights will be written every 1 epochs.
+Neuron statistics will be written every 0 epochs.
+-------------------------------------------------------------------------------
+Per-task batch size for energies             : 1
+Fraction of energies used per epoch          : 1.0000
+Energy updates per epoch                     : 44
+Energies used per update (rank   0 / global) :          1 / 384
+----------------------------------------------
+Per-task batch size for forces               : 1
+Fraction of forces used per epoch            : 0.0200
+Force updates per epoch                      : 795
+Forces used per update (rank   0 / global)   :          1 / 384
+----------------------------------------------
+Energy to force ratio                        :      1 :  18.1
+Energy to force percentages                  :   5.2% :  94.8%
+-------------------------------------------------------------------------------
+Allocating memory for energy error vector and Jacobian.
+Updater   0:
+ - Error    size: 384
+ - Jacobian size: 1688832
+------------------------------------------------------
+Allocating memory for force error vector and Jacobian.
+Updater   0:
+ - Error    size: 384
+ - Jacobian size: 1688832
+-------------------------------------------------------------------------------
+qtau is divided by number of projected updates per epoch.
+etatau is divided by number of projected updates per epoch.
+-------------------------------------------------------------------------------
+Combined weight updater:
+-------------------------------------------------------------------------------
+KalmanType::KT_STANDARD (0)
+sizeState       = 4398
+sizeObservation = 1
+epsilon         =   1.0000E-02
+q0              =   1.0000E-02
+qtau            =   2.7437E-03
+qmin            =   1.0000E-06
+eta0            =   1.0000E-02
+etatau          =   2.7437E-03
+etamax          =   1.0000E+00
+OpenMP threads used: 1
+-------------------------------------------------------------------------------
+*******************************************************************************
+
+*** CALCULATE NEIGHBOR LISTS **************************************************
+
+Calculating neighbor lists for all structures.
+Cutoff radius for neighbor lists: 12.000000
+*******************************************************************************
+
+*** TRAINING LOOP *************************************************************
+
+The training loop output covers different RMSEs, update and
+timing information. The following quantities are organized
+according to the matrix scheme below:
+-------------------------------------------------------------------
+ep ............ Epoch.
+Etrain_phys ... RMSE of training energies per atom (p. u.).
+Etest_phys .... RMSE of test     energies per atom (p. u.).
+Etrain_int .... RMSE of training energies per atom (i. u.).
+Etest_int ..... RMSE of test     energies per atom (i. u.).
+Ftrain_phys ... RMSE of training forces (p. u.).
+Ftest_phys .... RMSE of test     forces (p. u.).
+Ftrain_int .... RMSE of training forces (i. u.).
+Ftest_int ..... RMSE of test     forces (i. u.).
+E_count ....... Number of energy updates.
+F_count ....... Number of force  updates.
+count ......... Total number of updates.
+t_train ....... Time for training (seconds).
+t_rmse ........ Time for RMSE calculation (seconds).
+t_epoch ....... Total time for this epoch (seconds).
+t_tot ......... Total time for all epochs (seconds).
+Abbreviations:
+  p. u. = physical units.
+  i. u. = internal units.
+Note: RMSEs in internal units (columns 5 + 6) are only present 
+      if data set normalization is used.
+-------------------------------------------------------------------
+     1    2             3             4             5             6
+energy   ep   Etrain_phys    Etest_phys    Etrain_int     Etest_int
+forces   ep   Ftrain_phys    Ftest_phys    Ftrain_int     Ftest_int
+update   ep       E_count       F_count         count
+timing   ep       t_train        t_rmse       t_epoch         t_tot
+-------------------------------------------------------------------
+ENERGY    0   9.60074E-01   9.58226E-01
+FORCES    0   2.20414E-01   2.20610E-01
+TIMING    0          0.00         35.13         35.14         35.14
+------
+ENERGY    1   2.56841E-04   2.53793E-04
+FORCES    1   3.60155E-03   3.24247E-03
+UPDATE    1            44           795           839
+TIMING    1        708.76          1.82        710.58        745.72
+------
+ENERGY    2   1.63618E-04   1.57930E-04
+FORCES    2   2.84427E-03   2.74352E-03
+UPDATE    2            44           795           839
+TIMING    2        706.47          1.94        708.41       1454.13
+------
+ENERGY    3   7.39586E-05   6.65414E-05
+FORCES    3   2.81388E-03   2.61437E-03
+UPDATE    3            44           795           839
+TIMING    3        704.46          1.92        706.38       2160.52
+------
+ENERGY    4   6.36765E-05   5.60510E-05
+FORCES    4   2.69371E-03   2.59488E-03
+UPDATE    4            44           795           839
+TIMING    4        704.46          1.96        706.44       2866.95
+------
+ENERGY    5   6.08656E-05   5.37206E-05
+FORCES    5   2.76273E-03   2.56666E-03
+UPDATE    5            44           795           839
+TIMING    5        704.63         15.72        720.36       3587.31
+------
+ENERGY    6   5.93871E-05   5.13021E-05
+FORCES    6   2.74385E-03   2.55866E-03
+UPDATE    6            44           795           839
+TIMING    6        704.51          1.91        706.42       4293.73
+------
+ENERGY    7   5.91706E-05   5.11522E-05
+FORCES    7   2.77410E-03   2.54979E-03
+UPDATE    7            44           795           839
+TIMING    7        704.46          1.98        706.46       5000.19
+------
+ENERGY    8   6.43895E-05   5.70565E-05
+FORCES    8   2.69713E-03   2.53843E-03
+UPDATE    8            44           795           839
+TIMING    8        705.00          2.01        707.02       5707.21
+------
+ENERGY    9   5.86472E-05   5.16697E-05
+FORCES    9   2.58994E-03   2.53936E-03
+UPDATE    9            44           795           839
+TIMING    9        704.06          1.88        705.96       6413.16
+------
+ENERGY   10   6.78060E-05   6.16747E-05
+FORCES   10   2.57731E-03   2.53358E-03
+UPDATE   10            44           795           839
+TIMING   10        704.04         21.32        725.36       7138.53
+------
+ENERGY   11   5.78131E-05   4.98028E-05
+FORCES   11   2.58819E-03   2.53489E-03
+UPDATE   11            44           795           839
+TIMING   11        704.24          1.98        706.22       7844.75
+------
+ENERGY   12   5.68977E-05   4.97560E-05
+FORCES   12   2.60344E-03   2.53030E-03
+UPDATE   12            44           795           839
+TIMING   12        703.93          2.00        705.94       8550.69
+------
+ENERGY   13   5.69351E-05   5.00766E-05
+FORCES   13   2.62454E-03   2.52596E-03
+UPDATE   13            44           795           839
+TIMING   13        703.64          1.94        705.59       9256.28
+------
+ENERGY   14   5.61635E-05   4.96908E-05
+FORCES   14   2.61079E-03   2.52316E-03
+UPDATE   14            44           795           839
+TIMING   14        703.23          1.98        705.22       9961.50
+------
+ENERGY   15   5.72930E-05   5.14566E-05
+FORCES   15   2.61267E-03   2.52071E-03
+UPDATE   15            44           795           839
+TIMING   15        703.69         13.90        717.59      10679.09
+------
+ENERGY   16   5.62781E-05   4.96194E-05
+FORCES   16   2.60460E-03   2.51701E-03
+UPDATE   16            44           795           839
+TIMING   16        703.40          1.93        705.35      11384.43
+------
+ENERGY   17   5.71906E-05   5.18707E-05
+FORCES   17   2.74805E-03   2.51661E-03
+UPDATE   17            44           795           839
+TIMING   17        703.22          1.92        705.25      12089.69
+------
+ENERGY   18   5.57583E-05   4.93474E-05
+FORCES   18   2.73863E-03   2.51266E-03
+UPDATE   18            44           795           839
+TIMING   18        703.59          1.94        705.56      12795.25
+------
+ENERGY   19   5.61656E-05   4.88871E-05
+FORCES   19   2.74910E-03   2.51151E-03
+UPDATE   19            44           795           839
+TIMING   19        703.94          1.92        705.98      13501.23
+------
+ENERGY   20   5.65680E-05   4.92946E-05
+FORCES   20   2.72475E-03   2.50844E-03
+UPDATE   20            44           795           839
+TIMING   20        703.77         26.37        730.15      14231.37
+------
