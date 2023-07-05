@@ -1,0 +1,94 @@
+&GLOBAL
+  PROJECT_NAME  H2O-TiO2
+  RUN_TYPE      MD
+  PRINT_LEVEL   LOW
+  PREFERRED_DIAG_LIBRARY SL
+&END GLOBAL
+
+&MOTION
+  &MD
+    ENSEMBLE NVT
+    STEPS 0
+    TIMESTEP 1.0
+    TEMPERATURE 1
+    &THERMOSTAT
+      TYPE NOSE
+      &CSVR
+        TIMECON 1
+      &END CSVR
+    &END THERMOSTAT
+  &END MD
+  &PRINT
+      &FORCES
+       UNIT eV*angstrom^-1
+      &END
+      &TRAJECTORY
+      &END
+  &END PRINT
+&END MOTION
+
+&FORCE_EVAL
+  METHOD QUICKSTEP
+  &DFT
+    BASIS_SET_FILE_NAME  BASIS_SET
+    BASIS_SET_FILE_NAME  BASIS_MOLOPT
+    POTENTIAL_FILE_NAME  POTENTIAL
+    &QS
+      EPS_DEFAULT 1.0E-12
+      EPS_PGF_ORB 1.0E-14
+    &END QS
+    &SCF
+      EPS_SCF 1.0E-4
+      MAX_SCF 50
+      &OT
+        PRECONDITIONER FULL_ALL
+      &END
+      &OUTER_SCF
+         EPS_SCF 1.0E-4
+         MAX_SCF 3
+      &END
+      SCF_GUESS RESTART
+    &END SCF
+    &MGRID
+      CUTOFF  350
+      NGRIDS  3
+    &END MGRID
+    &XC
+      &XC_FUNCTIONAL
+        &LIBXC
+          FUNCTIONAL XC_GGA_X_OPTB88_VDW
+        &END LIBXC
+        &VWN
+        &END
+      &END XC_FUNCTIONAL
+      &VDW_POTENTIAL
+        POTENTIAL_TYPE NON_LOCAL
+         &NON_LOCAL
+           TYPE DRSLL
+           KERNEL_FILE_NAME vdW_kernel_table.dat
+         &END NON_LOCAL
+      &END
+    &END XC
+  &END DFT
+  &SUBSYS
+    &CELL
+      @INCLUDE init.ABC
+    &END CELL
+    &COORD
+@INCLUDE 'init.xyz'
+    &END COORD
+    &KIND Ti
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE-q12
+    &END KIND
+    &KIND O
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE-q6
+    &END KIND
+    &KIND H
+      MASS 2.0
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE-q1
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL
