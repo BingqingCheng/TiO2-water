@@ -50,7 +50,7 @@
       SCF_GUESS RESTART
     &END SCF
     &MGRID
-      CUTOFF  350
+      CUTOFF  1200
       NGRIDS  3
     &END MGRID
 &XC

@@ -1,0 +1,68 @@
+#  --------------------- Initialisation  ---------------------
+units real # distances in A, energies in kCal/mol, pressure in atms, time in fs
+dimension 3
+boundary p p p          # periodic in x, y, z
+atom_style   atomic
+
+timestep 1
+#  --------------------- Atom definition  ---------------------
+#read_data 'tio2.data'
+#read_data "water.data" add append
+read_data "rutile-110-nd-0-layer10-water128.data"
+
+group ti type 3
+group oxygen type 2
+group water id 361:744
+
+neigh_modify every 1 delay 0 check yes one 4000 # update neigbour every step
+neighbor 2.0 bin                       # neighbour list skin
+
+
+#  --------------------- Potential definition  ---------------------
+include ./TiO2.pp
+
+thermo_style custom step time temp press pe ke etotal enthalpy vol
+thermo 10
+#min_style cg
+#min_modify line quadratic
+#minimize 1.0e-8 1.0e-6 20 20
+
+#dump 2 all custom 200 out.lammpstrj element x y z
+#dump_modify 2 element H O Ti sort id
+##run 0
+#
+##  --------------------- set pressure  ---------------------
+## temperature settings
+variable T1 equal 330
+variable T2 equal 330
+#
+## pressure settings
+#variable p1 equal 9869.2327*0 # Convert GPa to atm
+#
+velocity       all create ${T1} 2431 dist gaussian mom yes rot yes
+#
+fix 1 all nve
+fix 2 all temp/csvr ${T1} ${T1} 1 5731
+#
+run 40000
+unfix 1
+unfix 2
+
+write_data eq.data
+#  --------------------- set pressure  ---------------------
+
+velocity       all create ${T2} 97805 dist gaussian mom yes rot yes
+
+fix 3 all plumed   plumedfile  plumed.dat     outfile p.log
+
+fix 1 all nve
+fix 2 all temp/csvr ${T2} ${T2} 1 3591
+
+compute         layers water chunk/atom bin/1d z lower 0.001 units reduced
+fix 4 all ave/chunk 1000 10 20000 layers  density/mass ave running file rutile-110-density-nnp-2-nd-JJJJJ.data
+
+dump 2 all custom 1000 out.lammpstrj element x y z
+dump_modify 2 element H O Ti sort id
+
+run 5000000
+write_data final.data

@@ -1,0 +1,46 @@
+#  --------------------- Initialisation  ---------------------
+units real # distances in A, energies in kCal/mol, pressure in atms, time in fs
+dimension 3
+boundary p p p          # periodic in x, y, z
+atom_style   atomic
+
+timestep 1
+#  --------------------- Atom definition  ---------------------
+read_data 'tio2-water.data'
+#change_box all x scale 1.0 y scale 1.0 z scale 0.98 remap
+
+group ti type 3
+group oxygen type 2
+
+neigh_modify every 1 delay 0 check yes one 4000 # update neigbour every step
+neighbor 2.0 bin                       # neighbour list skin
+
+
+#  --------------------- Potential definition  ---------------------
+include ./TiO2.pp
+
+thermo_style custom step time temp press pe ke etotal enthalpy vol
+thermo 10
+
+#  --------------------- set pressure  ---------------------
+# temperature settings
+variable T1 equal 200
+variable T2 equal 330
+
+# pressure settings
+variable p1 equal 9869.2327*0 # Convert GPa to atm
+
+velocity       all create ${T2} 978215 dist gaussian mom yes rot yes
+
+fix 3 all plumed   plumedfile  plumed.dat     outfile p.log
+
+fix 1 all nve
+fix 2 all temp/csvr ${T2} ${T2} 1 573591
+
+run 20000
+
+dump 2 all custom 100 out.lammpstrj element x y z
+dump_modify 2 element H O Ti sort id
+
+run 1000000
+write_data final.data
