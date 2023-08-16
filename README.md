@@ -1,6 +1,6 @@
 # Data repository for "Mechanistic insight on water dissociation on pristine low-index TiO$_2$ surfaces from machine learning molecular dynamics simulations"
 
-arXiv preprint: \url{https://arxiv.org/abs/2303.07433}
+arXiv preprint: https://arxiv.org/abs/2303.07433
 
 ## MLPs:
 Contains machine learning potentials trained on optb88vdw (./optb88vdw/), and the Delta-learning potentials (./delta-pbe/, ./delta-scan-1200Ry/, ./delta-scan-350Ry/). The Delta-learning potentials need to be used together with the optb88vdw MLP.
@@ -22,3 +22,6 @@ The training data for the Delta-learning PBE  MLPs, in N2P2 format. Units are in
 
 ## delta-SCAN-training-data:
 The training data for the Delta-learning SCAN MLPs, in N2P2 format. Units are in hartree/Bohr.
+
+## example-analysis:
+Python script and notebook to generate features for hydrogen environments, perform classification and kernal PCA.
