@@ -1,5 +1,7 @@
 # Data repository for "Mechanistic insight on water dissociation on pristine low-index TiO$_2$ surfaces from machine learning molecular dynamics simulations"
 
+[![DOI](https://zenodo.org/badge/613786300.svg)](https://zenodo.org/badge/latestdoi/613786300)
+
 arXiv preprint: https://arxiv.org/abs/2303.07433
 
 ## MLPs:
