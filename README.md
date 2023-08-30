@@ -11,6 +11,12 @@ The DFT input files for CP2K.
 ## fig1-data:
 Source data for generating Fig.1. Contains the free energy surfaces, water density profiles, and water orientations.
 
+## fig2-data:
+Source data for generating the kPCA maps in Fig.2.
+
+## fig3-data:
+Source data for generating the kPCA maps in Fig.3a,b, and the transition matrix in Fig.3d.
+
 ## metad-input:
 The example input files for running metadynamics simulations using LAMMPS and PLUMED.
 
